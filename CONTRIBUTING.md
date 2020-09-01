@@ -1,62 +1,28 @@
-# GIT CONTRIBUTION FLOW
-To make changes to a repository, follow these steps;
+# CONTRIBUTING GUIDELINES
+::tada Welcome to Eddie Jaoude community, thank you for your interest in contributing to our projects. :balloon: To get started Please read the [Code of Conduct](https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io/blob/develop/CODE_OF_CONDUCT.md)
 
-# Fork The Repository
-- On the top right, click on the fork button, a copy of the repository would be created on your github account, this would take few seconds to get completed.
-- Once this is done, click on the green clone drop-down by the top left and copy the url you see, you would use this later.
+# EDDIE JAOUDE COMMUNITY PROJECTS
+Our projects are open to all contributors, to get started with contributing to our projects, you can check out our projects [here](https://github.com/EddieJaoudeCommunity), and choose a project you wish to make contributions to.
 
-# Clone your fork to your local machine
-This simply means getting a copy of the repository on your personal computer.
-On your computer terminal, cd into the directory you want to clone the repo.
-```
-cd "directory" note: directory here, should be the name of your chosen directory
-```
-now, Enter this,
-```
-git clone "paste the url you copied here"
-```
+# HOW DO I CONTRIBUTE TO A PROJECT?
+- If this is your first contribution, see [NEWCOMERS.md](). You might also want to take up issues with the [good first issue](https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) or [help wanted](https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io/labels/help%20wanted) label.
 
-# Create a Branch
-To work on a new feature or fix a bug , it's important that you create a new branch. this keeps your changes seperate from the master branch for easy management of multiple pull requests for each completed task. 
-Enter this
+- Discuss the changes you wish to make by creating an [issue](https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io/issues/new) or comment on an already created issue, or contact us via our [discord channel](https://discord.com/invite/jZQs6Wu). 
+- Once, you have been assigned the issue by the maintainer, you can go ahead to fork the repo, clone and make changes and fix the issue. For steps on how to do this, this [here]() is a helpful guide.
+
+# MAKING YOUR PULL REQUEST
+When you are done with your changes, and you have checked the new changes you made, you can now create a pull request referencing the number of the issue you fixed in the description as seen here:
 ```
-git checkout master
-```
-Create a branch with a name
-```
-git branch "your-branch-name"
+This PR fixes issue # "issue number"
 ```
 
-## Switch to your new branch
-```
-git checkout "your-branch-name"
-```
+Once, you have completed this, your pull request would be reviewed by a maintainer, if it satisfies the requirements of the corresponding issue to which it was made, it would be merged.
 
-Now you can go ahead and effect the desired changes.
+Kudos to you :ballons:
 
-## Submitting your changes (a Pull Request)
-on your terminal, Enter this to check the modified files
-```
-git status
-```
-To add the changes,
-```
-git add .
-```
-Commit your changes
-```
-git commit -m "Add-a-commit-message-here"
-```
-Now, you can push your changes to the branch you created
-```
-git push origin "your-branch-name"
-```
-# Submitting
-Once you've committed and pushed all of your changes to GitHub, reload the page for your fork on GitHub, select your branch, and click the green compare and pull request button by the top right, add a description and the number for the issue your pull request and submit.
 
-CONGRATULATIONS ON YOUR SUCCESSFUL CONTRIBUTION :ballons:
 
-If you encounter any issues, feel free to contact us on our [discord channel](https://discord.com/invite/jZQs6Wu).
 
-THANK YOU FOR CONTRIBUTING TO THE EDDIE JAOUDE COMMUNITY
+Feel free to reach out to us on our [discord channel](https://discord.com/invite/jZQs6Wu). 
+THANK YOU FOR CONTRIBUTING TO EDDIE JAOUDE COMMUNITY.
 
