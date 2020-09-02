@@ -5,7 +5,7 @@
 Our projects are open to all contributors, to get started with contributing to our projects, you can check out our projects [here](https://github.com/EddieJaoudeCommunity), and choose a project you wish to make contributions to.
 
 # HOW DO I CONTRIBUTE TO A PROJECT?
-- If this is your first contribution, see [NEWCOMERS.md](). You might also want to take up issues with the [good first issue](https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) or [help wanted](https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io/labels/help%20wanted) label.
+- If this is your first contribution, see [NEWCOMERS.md](NEWCOMERS.md). You might also want to take up issues with the [good first issue](https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) or [help wanted](https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io/labels/help%20wanted) label.
 
 - Discuss the changes you wish to make by creating an [issue](https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io/issues/new) or comment on an already created issue, or contact us via our [discord channel](https://discord.com/invite/jZQs6Wu). 
 - Once, you have been assigned the issue by the maintainer, you can go ahead to fork the repo, clone and make changes and fix the issue. For steps on how to do this, this [here]() is a helpful guide.
@@ -25,4 +25,3 @@ Kudos to you :ballons:
 
 Feel free to reach out to us on our [discord channel](https://discord.com/invite/jZQs6Wu). 
 THANK YOU FOR CONTRIBUTING TO EDDIE JAOUDE COMMUNITY.
-
