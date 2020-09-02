@@ -11,7 +11,7 @@
 - Projects name(repository list)
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Be sure to check the [contributing guide lines]().
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Be sure to check the [contributing guide lines](CONTRIBUTING.md).
 
 
 ## Find us on

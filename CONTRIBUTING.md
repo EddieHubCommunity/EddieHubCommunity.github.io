@@ -18,7 +18,7 @@ This PR fixes issue # "issue number"
 
 Once, you have completed this, your pull request would be reviewed by a maintainer, if it satisfies the requirements of the corresponding issue to which it was made, it would be merged.
 
-Kudos to you :ballons:
+Kudos to you :balloon:
 
 
 

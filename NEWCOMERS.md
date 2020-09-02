@@ -54,7 +54,12 @@ git push origin "your-branch-name"
 # Submitting
 Once you've committed and pushed all of your changes to GitHub, reload the page for your fork on GitHub, select your branch, and click the green compare and pull request button by the top right, add a description and the number for the issue your pull request and submit.
 
-CONGRATULATIONS ON YOUR SUCCESSFUL CONTRIBUTION :ballons:
+
+
+
+CONGRATULATIONS ON YOUR SUCCESSFUL CONTRIBUTION :balloon:
+
+
 
 If you encounter any issues, feel free to contact us on our [discord channel](https://discord.com/invite/jZQs6Wu).
 
