@@ -25,4 +25,3 @@ Kudos to you :ballons:
 
 Feel free to reach out to us on our [discord channel](https://discord.com/invite/jZQs6Wu). 
 THANK YOU FOR CONTRIBUTING TO EDDIE JAOUDE COMMUNITY.
-
