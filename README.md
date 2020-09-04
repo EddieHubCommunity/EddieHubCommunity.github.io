@@ -11,7 +11,7 @@
 - Projects name(repository list)
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Be sure to check the [contributing guide lines]().
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Be sure to check the [contributing guide lines](CONTRIBUTING.md).
 
 
 ## Find us on
@@ -19,4 +19,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 - <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />  [Github](https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io) 
 - <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />  [Youtube](https://www.youtube.com/eddiejaoude)
 
-![Website](https://user-images.githubusercontent.com/624760/90750677-119e9500-e2cd-11ea-874d-9dc1a74bc72d.png)
+![Website](https://user-images.githubusercontent.com/61991582/92185956-22aee080-ee4d-11ea-9553-8598c74edde5.png)
