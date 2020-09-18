@@ -7,8 +7,12 @@
     "cypress": "^5.2.0",
     "cypress-cucumber-preprocessor": "^2.5.5"
   },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "cypress run --spec \"**/*.feature\"",
+    "test:all": "cypress run --spec \"**/*.features\"",
     "cypress:open": "cypress open",
     "start": "live-server"
   },
