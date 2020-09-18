@@ -4,7 +4,8 @@
   "description": "## What is our community about - We believe open source is for everyone. - Our community is inclusive and a safe space for all. - Please welcome new people. - The best way to learn is to help someone else. - [Code Of Conduct](https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io/blob/main/CODE_OF_CONDUCT.md)",
   "main": "index.js",
   "devDependencies": {
-    "cypress": "^5.2.0"
+    "cypress": "^5.2.0",
+    "cypress-cucumber-preprocessor": "^2.5.5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -19,3 +19,6 @@ describe("My First Test", () => {
       .and("include", "/EddieBot");
   });
 });
+
+//Next: Add Cucumber and get the same tests working
+//With cucumber, code can be reused and only change code once and re-use it in other parts/pages
