@@ -10,7 +10,7 @@
 
 describe("My First Test", () => {
   it("Visits a website", () => {
-    cy.visit("http://127.0.0.1:5500/index.html");
+    cy.visit("http://127.0.0.1:8080/");
     cy.contains("EddieBot");
     cy.contains("Eddie Jaoude Community website");
     //Should lead to a new URL which includes:
