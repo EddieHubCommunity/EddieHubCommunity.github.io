@@ -1,0 +1,30 @@
+{
+  "name": "eddie",
+  "version": "1.0.0",
+  "description": "## What is our community about - We believe open source is for everyone. - Our community is inclusive and a safe space for all. - Please welcome new people. - The best way to learn is to help someone else. - [Code Of Conduct](https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io/blob/main/CODE_OF_CONDUCT.md)",
+  "main": "index.js",
+  "devDependencies": {
+    "cypress": "^5.2.0",
+    "cypress-cucumber-preprocessor": "^2.5.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false
+  },
+  "scripts": {
+    "test": "cypress run --spec \"**/*.feature\"",
+    "test:all": "cypress run --spec \"**/*.features\"",
+    "cypress:open": "cypress open",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karem1986/EddieJaoudeCommunity.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karem1986/EddieJaoudeCommunity.github.io/issues"
+  },
+  "homepage": "https://github.com/Karem1986/EddieJaoudeCommunity.github.io#readme"
+}
