@@ -1,0 +1,14 @@
+name: automated tests
+on:
+  push:
+  pull_request:
+
+jobs:
+  tests:
+    name: run cypress tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: install dependencies
+        run: npm install
+      - name: run tests
+        run: npm tests
