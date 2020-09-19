@@ -20,6 +20,8 @@ Currently this project is build with only html, css.
 1. `npm install`
 2. `npm start` this will open the website in your browser
 
+Each time you make a change, the browser will reload (refresh) the changes automatically for you
+
 ### Automated testing
 
 1. `npm install` to install dependencies like Cypress for browser testing
