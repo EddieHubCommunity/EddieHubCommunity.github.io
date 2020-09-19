@@ -1,0 +1,16 @@
+name: automated tests
+on:
+  push:
+  pull_request:
+    types: [opened]
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
+        with:
+          start: npm start
