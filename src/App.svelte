@@ -1,3 +1,58 @@
+<script>
+  import Card from "./Card.svelte";
+
+  const cardData = [
+    {
+      name: "EddieBot",
+      imageSrc: "https://user-images.githubusercontent.com/624760/91444835-3797dc80-e86d-11ea-8dfa-d7993a4d382d.png",
+      description: "Discord bot for Eddie Jaoude's Discord server.",
+      link: "https://github.com/EddieJaoudeCommunity/EddieBot",
+    },
+    {
+      name: "LiveStream GitOps Demo",
+      imageSrc:"https://user-images.githubusercontent.com/624760/91444606-e687e880-e86c-11ea-9001-522fc212c7c5.png",
+      description: "GitOps live stream repo for EddieBot",
+      link: "https://github.com/EddieJaoudeCommunity/LiveStream-GitOps-Demo",
+    },
+    {
+      name: "EddieBot Map",
+      imageSrc:"https://user-images.githubusercontent.com/624760/91445888-9f9af280-e86e-11ea-8180-9198953bc33d.png",
+      description: "Live steaming background with a map and maybe more ...",
+      link: "https://github.com/EddieJaoudeCommunity/EddieBotMap",
+    },
+    {
+      name: "Eddie Jaoude Community website",
+      imageSrc:"https://user-images.githubusercontent.com/624760/91445058-83e31c80-e86d-11ea-8243-3ca11b384d40.png",
+      description: "Information about our community",
+      link: "https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io",
+    },
+    {
+      name: "Support",
+      imageSrc:"https://user-images.githubusercontent.com/624760/91445509-1d123300-e86e-11ea-9648-c5c715355f26.png",
+      description: "Community Help & Support and AEA (Ask Everyone Anything)",
+      link: "https://github.com/EddieJaoudeCommunity/support",
+    },
+    {
+      name: "EddieBot UI",
+      imageSrc:"https://user-images.githubusercontent.com/624760/91444606-e687e880-e86c-11ea-9001-522fc212c7c5.png",
+      description: "EddieBotUI is the front end application that shows Eddie Jaoude Discord Community's public stats.",
+      link: "https://github.com/EddieJaoudeCommunity/EddieBotUI",
+    },
+    {
+      name: "Awesome GitHub Profiles",
+      imageSrc:"https://user-images.githubusercontent.com/624760/91445261-cefd2f80-e86d-11ea-8421-4553b29d2e4a.png",
+      description: "List of GitHub profiles that have awesome customization, that you can use for inspiration",
+      link: "https://github.com/EddieJaoudeCommunity/awesome-github-profiles",
+    },
+    {
+      name: "Hacktoberfest practice",
+      imageSrc:"https://user-images.githubusercontent.com/624760/91445718-61053800-e86e-11ea-81c7-751328c63e85.png",
+      description: "Repo for you to raise a Pull Request for practice",
+      link: "https://github.com/EddieJaoudeCommunity/hacktoberfest-practice",
+    }
+  ];
+</script>
+
 <div
   class="min-w-screen min-h-screen bg-gray-900 flex flex-col items-center justify-center px-5 py-5"
 >
@@ -35,151 +90,9 @@
     <div
       class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4"
     >
-      <a
-        class="bg-blue-700 rounded max-w-sm overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105"
-        href="https://github.com/EddieJaoudeCommunity/EddieBot"
-        target="_blank"
-      >
-        <img
-          src="https://user-images.githubusercontent.com/624760/91444835-3797dc80-e86d-11ea-8dfa-d7993a4d382d.png"
-          alt="Sample Project"
-          class="w-full h-64 object-cover"
-        />
-        <h3 class="mt-3 ml-3 font-bold text-indigo-100 text-xl mb-2">
-          EddieBot
-        </h3>
-        <p class="mx-3 text-indigo-100 text-base pb-3">
-          Discord bot for Eddie Jaoude's Discord server.
-        </p>
-      </a>
-
-      <a
-        class="bg-blue-700 rounded max-w-sm overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105"
-        href="https://github.com/EddieJaoudeCommunity/LiveStream-GitOps-Demo"
-        target="_blank"
-      >
-        <img
-          src="https://user-images.githubusercontent.com/624760/91444606-e687e880-e86c-11ea-9001-522fc212c7c5.png"
-          alt="Sample Project"
-          class="w-full h-64 object-cover"
-        />
-        <h3 class="mt-3 ml-3 font-bold text-indigo-100 text-xl mb-2">
-          LiveStream GitOps Demo
-        </h3>
-        <p class="mx-3 text-indigo-100 text-base pb-3">
-          GitOps live stream repo for EddieBot
-        </p>
-      </a>
-
-      <a
-        class="bg-blue-700 rounded max-w-sm overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105"
-        href="https://github.com/EddieJaoudeCommunity/EddieBotMap"
-        target="_blank"
-      >
-        <img
-          src="https://user-images.githubusercontent.com/624760/91445888-9f9af280-e86e-11ea-8180-9198953bc33d.png"
-          alt="Sample Project"
-          class="w-full h-64 object-cover"
-        />
-        <h3 class="mt-3 ml-3 font-bold text-indigo-100 text-xl mb-2">
-          EddieBot Map
-        </h3>
-        <p class="mx-3 text-indigo-100 text-base pb-3">
-          Live steaming background with a map and maybe more ...
-        </p>
-      </a>
-
-      <a
-        class="bg-blue-700 rounded max-w-sm overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105"
-        href="https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io"
-        target="_blank"
-      >
-        <img
-          src="https://user-images.githubusercontent.com/624760/91445058-83e31c80-e86d-11ea-8243-3ca11b384d40.png"
-          alt="Sample Project"
-          class="w-full h-64 object-cover"
-        />
-        <h3 class="mt-3 ml-3 font-bold text-indigo-100 text-xl mb-2">
-          Eddie Jaoude Community website
-        </h3>
-        <p class="mx-3 text-indigo-100 text-base pb-3">
-          Information about our community
-        </p>
-      </a>
-
-      <a
-        class="bg-blue-700 rounded max-w-sm overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105"
-        href="https://github.com/EddieJaoudeCommunity/support"
-        target="_blank"
-      >
-        <img
-          src="https://user-images.githubusercontent.com/624760/91445509-1d123300-e86e-11ea-9648-c5c715355f26.png"
-          alt="Sample Project"
-          class="w-full h-64 object-cover"
-        />
-        <h3 class="mt-3 ml-3 font-bold text-indigo-100 text-xl mb-2">
-          Support
-        </h3>
-        <p class="mx-3 text-indigo-100 text-base pb-3">
-          Community Help & Support and AEA (Ask Everyone Anything)
-        </p>
-      </a>
-
-      <a
-        class="bg-blue-700 rounded max-w-sm overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105"
-        href="https://github.com/EddieJaoudeCommunity/EddieBotUI"
-        target="_blank"
-      >
-        <img
-          src="https://user-images.githubusercontent.com/624760/91444606-e687e880-e86c-11ea-9001-522fc212c7c5.png"
-          alt="Sample Project"
-          class="w-full h-64 object-cover"
-        />
-        <h3 class="mt-3 ml-3 font-bold text-indigo-100 text-xl mb-2">
-          EddieBot UI
-        </h3>
-        <p class="mx-3 text-indigo-100 text-base pb-3">
-          EddieBotUI is the front end application that shows Eddie Jaoude
-          Discord Community's public stats.
-        </p>
-      </a>
-
-      <a
-        class="bg-blue-700 rounded max-w-sm overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105"
-        href="https://github.com/EddieJaoudeCommunity/awesome-github-profiles"
-        target="_blank"
-      >
-        <img
-          src="https://user-images.githubusercontent.com/624760/91445261-cefd2f80-e86d-11ea-8421-4553b29d2e4a.png"
-          alt="Sample Project"
-          class="w-full h-64 object-cover"
-        />
-        <h3 class="mt-3 ml-3 font-bold text-indigo-100 text-xl mb-2">
-          Awesome GitHub Profiles
-        </h3>
-        <p class="mx-3 text-indigo-100 text-base pb-3">
-          List of GitHub profiles that have awesome customization, that you
-          can use for inspiration
-        </p>
-      </a>
-
-      <a
-        class="bg-blue-700 rounded max-w-sm overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105"
-        href="https://github.com/EddieJaoudeCommunity/hacktoberfest-practice"
-        target="_blank"
-      >
-        <img
-          src="https://user-images.githubusercontent.com/624760/91445718-61053800-e86e-11ea-81c7-751328c63e85.png"
-          alt="Sample Project"
-          class="w-full h-64 object-cover"
-        />
-        <h3 class="mt-3 ml-3 font-bold text-indigo-100 text-xl mb-2">
-          Hacktoberfest practice
-        </h3>
-        <p class="mx-3 text-indigo-100 text-base pb-3">
-          Repo for you to raise a Pull Request for practice
-        </p>
-      </a>
+      {#each cardData as cardItem}
+        <Card {...cardItem} />
+      {/each}
     </div>
   </div>
 
