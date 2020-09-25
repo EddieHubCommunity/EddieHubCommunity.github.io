@@ -11,7 +11,7 @@
     "cypress:open": "cypress open",
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public"
+    "start": "sirv public --port 8080"
   },
   "repository": {
     "type": "git",
