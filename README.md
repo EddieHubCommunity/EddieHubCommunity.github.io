@@ -18,9 +18,17 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Currently this project is build with only html, css.
 
 1. `npm install`
-2. `npm start` this will open the website in your browser
+2. `npm run dev` this will open the website in your browser
 
 Each time you make a change, the browser will reload (refresh) the changes automatically for you
+
+### Building the application
+
+To create an optimised version of the app:
+
+```bash
+npm run build
+```
 
 ### Automated testing
 
