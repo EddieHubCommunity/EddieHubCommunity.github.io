@@ -2,7 +2,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - develop
+      - main
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -21,6 +21,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.6.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: develop # The branch the action should deploy to.
-          FOLDER: build # The folder the action should deploy.
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: public # The folder the action should deploy.
           CLEAN: true # Automatically remove deleted files from the deploy branch
