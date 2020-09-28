@@ -2,7 +2,7 @@ name: automated tests
 on:
   push:
   pull_request:
-    types: [opened]
+    types: [opened, edited]
 
 jobs:
   cypress-run:
