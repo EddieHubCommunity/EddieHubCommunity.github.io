@@ -1,6 +1,6 @@
 <script>
   import Card from "./Card.svelte";
-
+  import ModeratorCard from './Moderators.svelte'
   const cardData = [
     {
       name: "EddieBot",
@@ -51,8 +51,68 @@
       link: "https://github.com/EddieJaoudeCommunity/hacktoberfest-practice",
     }
   ];
-</script>
 
+  const moderatorsData = [
+    {
+      name:'Stephen Mount',
+      desc: 'After 10+ years in software engineering, I am coming up with ideas and things to reverse engineer things for the new wave of ARM etc etc',
+      github:'https://github.com/stemount',
+      website:'https://ste.london/',
+      img:"https://avatars1.githubusercontent.com/u/150512",
+      alt:"@stemount"
+    },
+    {
+      name: 'Michael Mba',
+      desc:'Linux Systems Integrator | Open Source Enthusiast | Photographer | Gamer || Starting my Python journey.',
+      github:'https://github.com/mikeysan',
+      website:'https://mikeysan.hashnode.dev/',
+      img:"https://avatars0.githubusercontent.com/u/13338176?s=460&u=d66a31344752bb3fa882a59b3effb10e084f226c&v=4",
+      alt:"@mikeysan"
+        
+    },
+    {
+      name: 'Praveen Kumar ',
+      desc: 'Microsoft MVP, Web Developer and Computer Software & UX Architect. Mentor - Full Stack @Thinkful-Ed.',
+      github:'https://github.com/praveenscience',
+      website:'https://praveen.science/',
+      img:"https://avatars1.githubusercontent.com/u/1830380?s=460&u=74697d8b1cbf3e16adec7b411369afbd53ce4864&v=4",
+      alt:"@praveenscience"
+           
+    },
+    {
+      name: 'David' ,
+      desc: 'Job: Software Developer Consultant I love programming, more specifically w/ Kotlin... it\'s just the best. Very interested in Web Dev and building discord bots',
+      github:'https://github.com/BOLT04',
+      website:'https://bolt04.github.io/react-ultimate-resume/',
+      img:'https://avatars1.githubusercontent.com/u/18630253?s=460&u=36cdb692666236ff5db7aa3c71e58327bdbdecc7&v=4',
+      alt:"@BOLT04"
+    },
+    {
+      name: 'Eddie Jaoude' ,
+      desc: 'Fullstack open source DevRel! I love code and the community :). GitHub Star ⭐ program 🤓',
+      github:'https://github.com/eddiejaoude',
+      website:'http://youtube.com/eddiejaoude?sub_confirmation=1',
+      img:"https://avatars3.githubusercontent.com/u/624760?s=460&v=4",
+      alt:"@eddiejaoude"
+    },
+    {
+      name: 'Petra',
+      desc: 'Linux and blockchain. Looking for ways to change the world.',
+      github:'https://github.com/metaverde',
+      website:'https://metaverde.github.io/',
+      img:"https://avatars1.githubusercontent.com/u/32101027?s=460&u=a3204811c6965f28996b6bcd36bdc800216d5dfe&v=4",
+      alt:"@metaverde"
+    },
+    {
+      name:'Amandine Flachs',
+      desc: '',
+      github:'https://github.com/AmandineFlachs',
+      website:'https://www.flachsconsulting.com/',
+      img:"https://avatars0.githubusercontent.com/u/29413522?s=460&v=4",
+      alt:"@AmandineFlachs"
+    }
+  ]
+</script>
 <div
   class="min-w-screen min-h-screen bg-gray-900 flex flex-col items-center justify-center px-5 py-5"
 >
@@ -122,677 +182,7 @@
     </a>
   </div>
 
-  <!-- Moderator cards -->
-  <div class="container my-8 p-5 bg-white rounded-lg">
-    <h2 class="text-center text-4xl mb-5 py-5 font-semibold">
-      Our Moderators
-    </h2>
-    <div
-      class="grid grid-cols-1 gap-5 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2"
-    >
-      <div class="bg-gray-0 h-32 md:h-48 lg:h-48">
-        <div class="flex flex-inline">
-          <div class="h-32 w-32 lg:h-48 lg:w-48 md:h-48 md:w-48">
-            <img
-              class="rounded-full"
-              src="https://avatars1.githubusercontent.com/u/150512"
-              alt="@stemount"
-            />
-          </div>
-          <div
-            class="lg:w-2/3 md:w-2/3 sm:w-2/3 px-5 pt-5 sm:pt-2 lg:pt-5 rounded-r-lg"
-          >
-            <button
-              class="bg-yellow-400 rounded px-1 text-black text-sm ml-auto"
-            >
-              community
-            </button>
-            <button
-              class="bg-purple-400 rounded px-1 text-white text-sm ml-auto"
-            >
-              Server Booster
-            </button>
-            <h1
-              class="font-medium text-lg sm:text-xl md:text-xl lg:text-xl xl:text-xl font-medium pt-2 sm:pt-1 md:pt-1 lg:pt-1"
-            >
-              Stephen Mount
-            </h1>
-            <p
-              class="font-light text-xs sm:text-sm md:text-sm lg:text-sm xl:text-sm py-1 font-normal hidden md:block lg:block break-words"
-            >
-              After 10+ years in software engineering, I am coming up with
-              ideas and things to reverse engineer things for the new wave
-              of ARM etc etc
-            </p>
-            <div
-              class="hidden lg:inline-flex md:inline-flex flex flex-inline"
-            >
-              <div class="flex flex-inline">
-                <a target="_blank" href="https://github.com/stemount">
-                  <i
-                    class="fa fa-github-alt pr-1 pt-6"
-                    style="
-                      font-size: 18px;
-                      color: rgb(109, 71, 199);
-                      font-style: normal;
-                    "
-                  ></i>
-                  <p
-                    class="inline pr-5 pt-5 text-purple-500 text-lg font-medium"
-                  >
-                    GitHub
-                  </p>
-                </a>
-              </div>
-              <div class="flex flex-inline">
-                <a target="_blank" href="https://ste.london">
-                  <i
-                    class="fa fa-link pr-1 pt-6 text-purple-500"
-                    style="
-                      font-size: 18px;
-                      color: rgb(109, 71, 199);
-                      font-style: normal;
-                    "
-                  ></i>
-                  <p
-                    class="inline pr-5 pt-5 text-purple-500 text-lg font-medium"
-                  >
-                    Website
-                  </p>
-                </a>
-              </div>
-            </div>
-            <!-- for small screens -->
-            <div
-              class="flex-inline lg:hidden sm:flex-inline md:hidden flex flex-inline"
-            >
-              <div>
-                <a target="_blank" href="https://github.com/stemount">
-                  <i
-                    class="fa fa-github-alt pt-5 pr-5"
-                    style="font-size: 20px; color: rgb(109, 71, 199)"
-                  ></i>
-                </a>
-              </div>
-              <div>
-                <a target="_blank" href="https://ste.london">
-                  <i
-                    class="fa fa-link pt-5 pr-5"
-                    style="font-size: 20px; color: rgb(109, 71, 199)"
-                  ></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="bg-gray-0 h-32 md:h-48 lg:h-48">
-        <div class="flex flex-inline">
-          <div class="h-32 w-32 lg:h-48 lg:w-48 md:h-48 md:w-48">
-            <img
-              class="rounded-full"
-              src="https://avatars0.githubusercontent.com/u/13338176?s=460&u=d66a31344752bb3fa882a59b3effb10e084f226c&v=4"
-              alt="@mikeysan"
-            />
-          </div>
-          <div
-            class="lg:w-2/3 md:w-2/3 sm:w-2/3 px-5 pt-5 sm:pt-2 lg:pt-5 rounded-r-lg"
-          >
-            <button
-              class="bg-yellow-400 rounded px-1 text-black text-sm ml-auto"
-            >
-              community
-            </button>
-            <button
-              class="bg-green-400 rounded px-1 text-white text-sm ml-auto"
-            >
-              python
-            </button>
-            <h1
-              class="font-medium text-lg sm:text-xl md:text-xl lg:text-xl xl:text-xl font-medium pt-2 sm:pt-1 md:pt-1 lg:pt-1"
-            >
-              Michael Mba
-            </h1>
-            <p
-              class="font-light text-xs sm:text-sm md:text-sm lg:text-sm xl:text-sm py-1 font-normal hidden md:block lg:block break-words"
-            >
-              Linux Systems Integrator | Open Source Enthusiast |
-              Photographer | Gamer || Starting my Python journey.
-            </p>
-            <div
-              class="hidden lg:inline-flex md:inline-flex flex flex-inline"
-            >
-              <div class="flex flex-inline">
-                <a target="_blank" href="https://github.com/mikeysan">
-                  <i
-                    class="fa fa-github-alt pr-1 pt-6"
-                    style="
-                      font-size: 18px;
-                      color: rgb(109, 71, 199);
-                      font-style: normal;
-                    "
-                  ></i>
-                  <p
-                    class="inline pr-5 pt-5 text-purple-500 text-lg font-medium"
-                  >
-                    GitHub
-                  </p>
-                </a>
-              </div>
-              <div class="flex flex-inline">
-                <a target="_blank" href="https://mikeysan.hashnode.dev">
-                  <i
-                    class="fa fa-link pr-1 pt-6"
-                    style="
-                      font-size: 18px;
-                      color: rgb(109, 71, 199);
-                      font-style: normal;
-                    "
-                  ></i>
-                  <p
-                    class="inline pr-5 pt-5 text-purple-500 text-lg font-medium"
-                  >
-                    Website
-                  </p>
-                </a>
-              </div>
-            </div>
-            <!-- for small screens -->
-            <div
-              class="flex-inline lg:hidden sm:flex-inline md:hidden flex flex-inline"
-            >
-              <div>
-                <a target="_blank" href="https://github.com/mikeysan">
-                  <i
-                    class="fa fa-github-alt pt-5 pr-5"
-                    style="font-size: 20px; color: rgb(109, 71, 199)"
-                  ></i>
-                </a>
-              </div>
-              <div>
-                <a target="_blank" href="https://mikeysan.hashnode.dev">
-                  <i
-                    class="fa fa-link pt-5 pr-5"
-                    style="font-size: 20px; color: rgb(109, 71, 199)"
-                  ></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="bg-gray-0 h-32 md:h-48 lg:h-48">
-        <div class="flex flex-inline">
-          <div class="h-32 w-32 lg:h-48 lg:w-48 md:h-48 md:w-48">
-            <img
-              class="rounded-full"
-              src="https://avatars1.githubusercontent.com/u/1830380?s=460&u=74697d8b1cbf3e16adec7b411369afbd53ce4864&v=4"
-              alt="@praveenscience"
-            />
-          </div>
-          <div
-            class="lg:w-2/3 md:w-2/3 sm:w-2/3 px-5 pt-5 sm:pt-2 lg:pt-5 rounded-r-lg"
-          >
-            <button
-              class="bg-yellow-400 rounded px-1 text-black text-sm ml-auto"
-            >
-              community
-            </button>
-            <h1
-              class="font-medium text-lg sm:text-xl md:text-xl lg:text-xl xl:text-xl font-medium pt-2 sm:pt-1 md:pt-1 lg:pt-1"
-            >
-              Praveen Kumar
-            </h1>
-            <p
-              class="font-light text-xs sm:text-sm md:text-sm lg:text-sm xl:text-sm py-1 font-normal hidden md:block lg:block break-words"
-            >
-              Microsoft MVP, Web Developer and Computer Software & UX
-              Architect. Mentor - Full Stack @Thinkful-Ed.
-            </p>
-            <div
-              class="hidden lg:inline-flex md:inline-flex flex flex-inline"
-            >
-              <div class="flex flex-inline">
-                <a target="_blank" href="https://github.com/praveenscience">
-                  <i
-                    class="fa fa-github-alt pr-1 pt-6"
-                    style="
-                      font-size: 18px;
-                      color: rgb(109, 71, 199);
-                      font-style: normal;
-                    "
-                  ></i>
-                  <p
-                    class="inline pr-5 pt-5 text-purple-500 text-lg font-medium"
-                  >
-                    GitHub
-                  </p>
-                </a>
-              </div>
-              <div class="flex flex-inline">
-                <a target="_blank" href="https://praveen.science/">
-                  <i
-                    class="fa fa-link pr-1 pt-6"
-                    style="
-                      font-size: 18px;
-                      color: rgb(109, 71, 199);
-                      font-style: normal;
-                    "
-                  ></i>
-                  <p
-                    class="inline pr-5 pt-5 text-purple-500 text-lg font-medium"
-                  >
-                    Website
-                  </p>
-                </a>
-              </div>
-            </div>
-            <!-- for small screens -->
-            <div
-              class="flex-inline lg:hidden sm:flex-inline md:hidden flex flex-inline"
-            >
-              <div>
-                <a target="_blank" href="https://github.com/praveenscience">
-                  <i
-                    class="fa fa-github-alt pt-5 pr-5"
-                    style="font-size: 20px; color: rgb(109, 71, 199)"
-                  ></i>
-                </a>
-              </div>
-              <div>
-                <a target="_blank" href="https://praveen.science/">
-                  <i
-                    class="fa fa-link pt-5 pr-5"
-                    style="font-size: 20px; color: rgb(109, 71, 199)"
-                  ></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="bg-gray-0 h-32 md:h-48 lg:h-48">
-        <div class="flex flex-inline">
-          <div class="h-32 w-32 lg:h-48 lg:w-48 md:h-48 md:w-48">
-            <img
-              class="rounded-full"
-              src="https://avatars1.githubusercontent.com/u/18630253?s=460&u=36cdb692666236ff5db7aa3c71e58327bdbdecc7&v=4"
-              alt="@BOLT04"
-            />
-          </div>
-          <div
-            class="lg:w-2/3 md:w-2/3 sm:w-2/3 px-5 pt-5 sm:pt-2 lg:pt-5 rounded-r-lg"
-          >
-            <button
-              class="bg-yellow-400 rounded px-1 text-black text-sm ml-auto"
-            >
-              community
-            </button>
-            <h1
-              class="font-medium text-lg sm:text-xl md:text-xl lg:text-xl xl:text-xl font-medium pt-2 sm:pt-1 md:pt-1 lg:pt-1"
-            >
-              David
-            </h1>
-            <p
-              class="font-light text-xs sm:text-sm md:text-sm lg:text-sm xl:text-sm py-1 font-normal hidden md:block lg:block break-words"
-            >
-              Job: Software Developer Consultant I love programming, more
-              specifically w/ Kotlin... it's just the best. Very interested
-              in Web Dev and building discord bots
-            </p>
-            <div
-              class="hidden lg:inline-flex md:inline-flex flex flex-inline"
-            >
-              <div class="flex flex-inline">
-                <a target="_blank" href="https://github.com/BOLT04">
-                  <i
-                    class="fa fa-github-alt pr-1 pt-6"
-                    style="
-                      font-size: 18px;
-                      color: rgb(109, 71, 199);
-                      font-style: normal;
-                    "
-                  ></i>
-                  <p
-                    class="inline pr-5 pt-5 text-purple-500 text-lg font-medium"
-                  >
-                    GitHub
-                  </p>
-                </a>
-              </div>
-              <div class="flex flex-inline">
-                <a
-                  target="_blank"
-                  href="https://bolt04.github.io/react-ultimate-resume/"
-                >
-                  <i
-                    class="fa fa-link pr-1 pt-6"
-                    style="
-                      font-size: 18px;
-                      color: rgb(109, 71, 199);
-                      font-style: normal;
-                    "
-                  ></i>
-                  <p
-                    class="inline pr-5 pt-5 text-purple-500 text-lg font-medium"
-                  >
-                    Website
-                  </p>
-                </a>
-              </div>
-            </div>
-            <!-- for small screens -->
-            <div
-              class="flex-inline lg:hidden sm:flex-inline md:hidden flex flex-inline"
-            >
-              <div>
-                <a target="_blank" href="https://github.com/BOLT04">
-                  <i
-                    class="fa fa-github-alt pt-5 pr-5"
-                    style="font-size: 20px; color: rgb(109, 71, 199)"
-                  ></i>
-                </a>
-              </div>
-              <div>
-                <a
-                  target="_blank"
-                  href="https://bolt04.github.io/react-ultimate-resume/"
-                >
-                  <i
-                    class="fa fa-link pt-5 pr-5"
-                    style="font-size: 20px; color: rgb(109, 71, 199)"
-                  ></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="bg-gray-0 h-32 md:h-48 lg:h-48">
-        <div class="flex flex-inline">
-          <div class="h-32 w-32 lg:h-48 lg:w-48 md:h-48 md:w-48">
-            <img
-              class="rounded-full"
-              src="https://avatars3.githubusercontent.com/u/624760?s=460&v=4"
-              alt="@eddiejaoude"
-            />
-          </div>
-          <div
-            class="lg:w-2/3 md:w-2/3 sm:w-2/3 px-5 pt-5 sm:pt-2 lg:pt-5 rounded-r-lg"
-          >
-            <button
-              class="bg-yellow-400 rounded px-1 text-black text-sm ml-auto"
-            >
-              community
-            </button>
-            <button
-              class="bg-green-400 rounded px-1 text-white text-sm ml-auto"
-            >
-              opensource
-            </button>
-            <h1
-              class="font-medium text-lg sm:text-xl md:text-xl lg:text-xl xl:text-xl font-medium pt-2 sm:pt-1 md:pt-1 lg:pt-1"
-            >
-              Eddie Jaoude
-            </h1>
-            <p
-              class="font-light text-xs sm:text-sm md:text-sm lg:text-sm xl:text-sm py-1 font-normal hidden md:block lg:block break-words"
-            >
-              Fullstack open source DevRel! I love code and the community
-              :). GitHub Star ⭐ program 🤓
-            </p>
-            <div
-              class="hidden lg:inline-flex md:inline-flex flex flex-inline"
-            >
-              <div class="flex flex-inline">
-                <a target="_blank" href="https://github.com/eddiejaoude">
-                  <i
-                    class="fa fa-github-alt pr-1 pt-6"
-                    style="
-                      font-size: 18px;
-                      color: rgb(109, 71, 199);
-                      font-style: normal;
-                    "
-                  ></i>
-                  <p
-                    class="inline pr-5 pt-5 text-purple-500 text-lg font-medium"
-                  >
-                    GitHub
-                  </p>
-                </a>
-              </div>
-              <div class="flex flex-inline">
-                <a
-                  target="_blank"
-                  href="http://youtube.com/eddiejaoude?sub_confirmation=1"
-                >
-                  <i
-                    class="fa fa-link pr-1 pt-6"
-                    style="
-                      font-size: 18px;
-                      color: rgb(109, 71, 199);
-                      font-style: normal;
-                    "
-                  ></i>
-                  <p
-                    class="inline pr-5 pt-5 text-purple-500 text-lg font-medium"
-                  >
-                    Website
-                  </p>
-                </a>
-              </div>
-            </div>
-            <!-- for small screens -->
-            <div
-              class="flex-inline lg:hidden sm:flex-inline md:hidden flex flex-inline"
-            >
-              <div>
-                <a target="_blank" href="https://github.com/eddiejaoude">
-                  <i
-                    class="fa fa-github-alt pt-5 pr-5"
-                    style="font-size: 20px; color: rgb(109, 71, 199)"
-                  ></i>
-                </a>
-              </div>
-              <div>
-                <a
-                  target="_blank"
-                  href="http://youtube.com/eddiejaoude?sub_confirmation=1"
-                >
-                  <i
-                    class="fa fa-link pt-5 pr-5"
-                    style="font-size: 20px; color: rgb(109, 71, 199)"
-                  ></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="bg-gray-0 h-32 md:h-48 lg:h-48">
-        <div class="flex flex-inline">
-          <div class="h-32 w-32 lg:h-48 lg:w-48 md:h-48 md:w-48">
-            <img
-              class="rounded-full"
-              src="https://avatars1.githubusercontent.com/u/32101027?s=460&u=a3204811c6965f28996b6bcd36bdc800216d5dfe&v=4"
-              alt="@metaverde"
-            />
-          </div>
-          <div
-            class="lg:w-2/3 md:w-2/3 sm:w-2/3 px-5 pt-5 sm:pt-2 lg:pt-5 rounded-r-lg"
-          >
-            <button
-              class="bg-yellow-400 rounded px-1 text-black text-sm ml-auto"
-            >
-              community
-            </button>
-            <h1
-              class="font-medium text-lg sm:text-xl md:text-xl lg:text-xl xl:text-xl font-medium pt-2 sm:pt-1 md:pt-1 lg:pt-1"
-            >
-              Petra
-            </h1>
-            <p
-              class="font-light text-xs sm:text-sm md:text-sm lg:text-sm xl:text-sm py-1 font-normal hidden md:block lg:block break-words"
-            >
-              Linux and blockchain. Looking for ways to change the world.
-            </p>
-            <div
-              class="hidden lg:inline-flex md:inline-flex flex flex-inline"
-            >
-              <div class="flex flex-inline">
-                <a target="_blank" href="https://github.com/metaverde">
-                  <i
-                    class="fa fa-github-alt pr-1 pt-6"
-                    style="
-                      font-size: 18px;
-                      color: rgb(109, 71, 199);
-                      font-style: normal;
-                    "
-                  ></i>
-                  <p
-                    class="inline pr-5 pt-5 text-purple-500 text-lg font-medium"
-                  >
-                    GitHub
-                  </p>
-                </a>
-              </div>
-              <div class="flex flex-inline">
-                <a target="_blank" href="https://metaverde.github.io/">
-                  <i
-                    class="fa fa-link pr-1 pt-6"
-                    style="
-                      font-size: 18px;
-                      color: rgb(109, 71, 199);
-                      font-style: normal;
-                    "
-                  ></i>
-                  <p
-                    class="inline pr-5 pt-5 text-purple-500 text-lg font-medium"
-                  >
-                    Website
-                  </p>
-                </a>
-              </div>
-            </div>
-            <!-- for small screens -->
-            <div
-              class="flex-inline lg:hidden sm:flex-inline md:hidden flex flex-inline"
-            >
-              <div>
-                <a target="_blank" href="https://github.com/metaverde">
-                  <i
-                    class="fa fa-github-alt pt-5 pr-5"
-                    style="font-size: 20px; color: rgb(109, 71, 199)"
-                  ></i>
-                </a>
-              </div>
-              <div>
-                <a target="_blank" href="https://metaverde.github.io/">
-                  <i
-                    class="fa fa-link pt-5 pr-5"
-                    style="font-size: 20px; color: rgb(109, 71, 199)"
-                  ></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="bg-gray-0 h-32 md:h-48 lg:h-48">
-        <div class="flex flex-inline">
-          <div class="h-32 w-32 lg:h-48 lg:w-48 md:h-48 md:w-48">
-            <img
-              class="rounded-full"
-              src="https://avatars0.githubusercontent.com/u/29413522?s=460&v=4"
-              alt="@AmandineFlachs"
-            />
-          </div>
-          <div
-            class="lg:w-2/3 md:w-2/3 sm:w-2/3 px-5 pt-5 sm:pt-2 lg:pt-5 rounded-r-lg"
-          >
-            <button
-              class="bg-yellow-400 rounded px-1 text-black text-sm ml-auto"
-            >
-              community
-            </button>
-            <h1
-              class="font-medium text-lg sm:text-xl md:text-xl lg:text-xl xl:text-xl font-medium pt-2 sm:pt-1 md:pt-1 lg:pt-1"
-            >
-              Amandine Flachs
-            </h1>
-            <p
-              class="font-light text-xs sm:text-sm md:text-sm lg:text-sm xl:text-sm py-1 font-normal hidden md:block lg:block break-words"
-            ></p>
-            <div
-              class="hidden lg:inline-flex md:inline-flex flex flex-inline"
-            >
-              <div class="flex flex-inline">
-                <a target="_blank" href="https://github.com/AmandineFlachs">
-                  <i
-                    class="fa fa-github-alt pr-1 pt-6"
-                    style="
-                      font-size: 18px;
-                      color: rgb(109, 71, 199);
-                      font-style: normal;
-                    "
-                  ></i>
-                  <p
-                    class="inline pr-5 pt-5 text-purple-500 text-lg font-medium"
-                  >
-                    GitHub
-                  </p>
-                </a>
-              </div>
-              <div class="flex flex-inline">
-                <a target="_blank" href="https://www.flachsconsulting.com">
-                  <i
-                    class="fa fa-link pr-1 pt-6"
-                    style="
-                      font-size: 18px;
-                      color: rgb(109, 71, 199);
-                      font-style: normal;
-                    "
-                  ></i>
-                  <p
-                    class="inline pr-5 pt-5 text-purple-500 text-lg font-medium"
-                  >
-                    Website
-                  </p>
-                </a>
-              </div>
-            </div>
-            <!-- for small screens -->
-            <div
-              class="flex-inline lg:hidden sm:flex-inline md:hidden flex flex-inline"
-            >
-              <div>
-                <a target="_blank" href="https://github.com/AmandineFlachs">
-                  <i
-                    class="fa fa-github-alt pt-5 pr-5"
-                    style="font-size: 20px; color: rgb(109, 71, 199)"
-                  ></i>
-                </a>
-              </div>
-              <div>
-                <a target="_blank" href="https://www.flachsconsulting.com">
-                  <i
-                    class="fa fa-link pt-5 pr-5"
-                    style="font-size: 20px; color: rgb(109, 71, 199)"
-                  ></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <ModeratorCard {moderatorsData}/>
 
   <div class="mt-6">
     <a
