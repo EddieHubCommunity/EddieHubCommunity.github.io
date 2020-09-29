@@ -54,62 +54,62 @@
 
   const moderatorsData = [
     {
-      name:'Stephen Mount',
-      desc: 'After 10+ years in software engineering, I am coming up with ideas and things to reverse engineer things for the new wave of ARM etc etc',
-      github:'https://github.com/stemount',
-      website:'https://ste.london/',
-      img:"https://avatars1.githubusercontent.com/u/150512",
-      alt:"@stemount"
+      name : "Stephen Mount",
+      desc : "After 10+ years in software engineering, I am coming up with ideas and things to reverse engineer things for the new wave of ARM etc etc",
+      github : "https://github.com/stemount",
+      website : "https://ste.london/",
+      img : "https://avatars1.githubusercontent.com/u/150512",
+      alt : "@stemount"
     },
     {
-      name: 'Michael Mba',
-      desc:'Linux Systems Integrator | Open Source Enthusiast | Photographer | Gamer || Starting my Python journey.',
-      github:'https://github.com/mikeysan',
-      website:'https://mikeysan.hashnode.dev/',
-      img:"https://avatars0.githubusercontent.com/u/13338176?s=460&u=d66a31344752bb3fa882a59b3effb10e084f226c&v=4",
-      alt:"@mikeysan"
+      name : "Michael Mba",
+      desc : "Linux Systems Integrator | Open Source Enthusiast | Photographer | Gamer || Starting my Python journey.",
+      github : "https://github.com/mikeysan",
+      website : "https://mikeysan.hashnode.dev/",
+      img : "https://avatars0.githubusercontent.com/u/13338176?s=460&u=d66a31344752bb3fa882a59b3effb10e084f226c&v=4",
+      alt : "@mikeysan"
         
     },
     {
-      name: 'Praveen Kumar ',
-      desc: 'Microsoft MVP, Web Developer and Computer Software & UX Architect. Mentor - Full Stack @Thinkful-Ed.',
-      github:'https://github.com/praveenscience',
-      website:'https://praveen.science/',
-      img:"https://avatars1.githubusercontent.com/u/1830380?s=460&u=74697d8b1cbf3e16adec7b411369afbd53ce4864&v=4",
-      alt:"@praveenscience"
+      name : "Praveen Kumar ",
+      desc : "Microsoft MVP, Web Developer and Computer Software & UX Architect. Mentor - Full Stack @Thinkful-Ed.",
+      github : "https://github.com/praveenscience",
+      website : "https://praveen.science/",
+      img : "https://avatars1.githubusercontent.com/u/1830380?s=460&u=74697d8b1cbf3e16adec7b411369afbd53ce4864&v=4",
+      alt : "@praveenscience"
            
     },
     {
-      name: 'David' ,
-      desc: 'Job: Software Developer Consultant I love programming, more specifically w/ Kotlin... it\'s just the best. Very interested in Web Dev and building discord bots',
-      github:'https://github.com/BOLT04',
-      website:'https://bolt04.github.io/react-ultimate-resume/',
-      img:'https://avatars1.githubusercontent.com/u/18630253?s=460&u=36cdb692666236ff5db7aa3c71e58327bdbdecc7&v=4',
-      alt:"@BOLT04"
+      name : "David" ,
+      desc : "Job: Software Developer Consultant I love programming, more specifically w/ Kotlin... it\'s just the best. Very interested in Web Dev and building discord bots",
+      github : "https://github.com/BOLT04",
+      website : "https://bolt04.github.io/react-ultimate-resume/",
+      img : "https://avatars1.githubusercontent.com/u/18630253?s=460&u=36cdb692666236ff5db7aa3c71e58327bdbdecc7&v=4",
+      alt : "@BOLT04"
     },
     {
-      name: 'Eddie Jaoude' ,
-      desc: 'Fullstack open source DevRel! I love code and the community :). GitHub Star ⭐ program 🤓',
-      github:'https://github.com/eddiejaoude',
-      website:'http://youtube.com/eddiejaoude?sub_confirmation=1',
-      img:"https://avatars3.githubusercontent.com/u/624760?s=460&v=4",
-      alt:"@eddiejaoude"
+      name : "Eddie Jaoude" ,
+      desc : "Fullstack open source DevRel! I love code and the community :). GitHub Star ⭐ program 🤓",
+      github : "https://github.com/eddiejaoude",
+      website : "http://youtube.com/eddiejaoude?sub_confirmation=1",
+      img : "https://avatars3.githubusercontent.com/u/624760?s=460&v=4",
+      alt : "@eddiejaoude"
     },
     {
-      name: 'Petra',
-      desc: 'Linux and blockchain. Looking for ways to change the world.',
-      github:'https://github.com/metaverde',
-      website:'https://metaverde.github.io/',
-      img:"https://avatars1.githubusercontent.com/u/32101027?s=460&u=a3204811c6965f28996b6bcd36bdc800216d5dfe&v=4",
-      alt:"@metaverde"
+      name : "Petra",
+      desc : "Linux and blockchain. Looking for ways to change the world.",
+      github : "https://github.com/metaverde",
+      website : "https://metaverde.github.io/",
+      img : "https://avatars1.githubusercontent.com/u/32101027?s=460&u=a3204811c6965f28996b6bcd36bdc800216d5dfe&v=4",
+      alt : "@metaverde"
     },
     {
-      name:'Amandine Flachs',
-      desc: '',
-      github:'https://github.com/AmandineFlachs',
-      website:'https://www.flachsconsulting.com/',
-      img:"https://avatars0.githubusercontent.com/u/29413522?s=460&v=4",
-      alt:"@AmandineFlachs"
+      name : "Amandine Flachs",
+      desc : "",
+      github : "https://github.com/AmandineFlachs",
+      website : "https://www.flachsconsulting.com/",
+      img : "https://avatars0.githubusercontent.com/u/29413522?s=460&v=4",
+      alt : "@AmandineFlachs"
     }
   ]
 </script>
