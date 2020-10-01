@@ -1,5 +1,5 @@
 <script>
-  export let moderatorsData
+  export let moderatorsData;
 </script>
 
 <div class="container my-8 p-5 bg-white rounded-lg">
