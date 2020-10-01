@@ -1,6 +1,6 @@
 <script>
   import Card from "./Card.svelte";
-  import ModeratorCard from './Moderators.svelte'
+  import ModeratorCard from './Moderators.svelte';
   const cardData = [
     {
       name: "EddieBot",
