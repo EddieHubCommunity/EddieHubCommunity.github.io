@@ -126,3 +126,21 @@ export const moderators = [
     badges: ["community"],
   },
 ];
+
+export const footerData = [
+  {
+    text: "YouTube",
+    i: "fab fa-youtube-square",
+    link: "https://youtube.com/eddiejaoude?sub_confirmation=1"
+  },
+  {
+    text: "GitHub",
+    i: "fab fa-github-square",
+    link: "http://github.com/EddieJaoudeCommunity"
+  },
+  {
+    text: "Discord",
+    i:"fab fa-discord",
+    link:"https://discord.com/invite/jZQs6Wu"
+  }
+]
