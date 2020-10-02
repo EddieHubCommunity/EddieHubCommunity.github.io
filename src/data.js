@@ -140,7 +140,7 @@ export const footerData = [
   },
   {
     text: "Discord",
-    i:"fab fa-discord",
-    link:"https://discord.com/invite/jZQs6Wu"
+    i: "fab fa-discord",
+    link: "https://discord.com/invite/jZQs6Wu"
   }
 ]
