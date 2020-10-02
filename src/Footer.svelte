@@ -1,7 +1,7 @@
 <script>
-    export let text
-    export let i 
-    export let link
+    export let text;
+    export let i;
+    export let link;
 </script>
 
 <a
