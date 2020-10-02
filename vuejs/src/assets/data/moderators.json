@@ -1,0 +1,100 @@
+{
+  "Moderators": [
+    {
+      "name": "Stephen Mount",
+      "bio": "After 10+ years in software engineering, I am coming up with ideas and things to reverse engineer things for the new wave of ARM etc etc",
+      "tags": [
+        {
+          "tag": "community",
+          "color": "yellow"
+        },
+        {
+          "tag": "Server Booster",
+          "color": "pink"
+        }
+      ],
+      "github": "https://github.com/stemount",
+      "website": "https://ste.london/"
+    },
+    {
+      "name": "Michael Mba",
+      "bio": "Linux Systems Integrator | Open Source Enthusiast | Photographer | Gamer || Starting my Python journey.",
+      "tags": [
+        {
+          "tag": "community",
+          "color": "yellow"
+        },
+        {
+          "tag": "python",
+          "color": "lime"
+        }
+      ],
+      "github": "https://github.com/mikeysan",
+      "website": "https://mikeysan.hashnode.dev/"
+    },
+    {
+      "name": "Praveen Kumar",
+      "bio": "Microsoft MVP, Web Developer and Computer Software & UX Architect. Mentor - Full Stack @Thinkful-Ed.      ",
+      "tags": [
+        {
+          "tag": "community",
+          "color": "yellow"
+        }
+      ],
+      "github": "https://github.com/praveenscience",
+      "website": "https://praveen.science/"
+    },
+    {
+      "name": "David",
+      "bio": "Job: Software Developer Consultant I love programming, more specifically w/ Kotlin... it's just the best. Very interested in Web Dev and building discord bots",
+      "tags": [
+        {
+          "tag": "community",
+          "color": "yellow"
+        }
+      ],
+      "github": "https://github.com/BOLT04",
+      "website": "https://bolt04.github.io/react-ultimate-resume/"
+    },
+    {
+      "name": "Eddie Jaoude",
+      "bio": "Fullstack open source DevRel! I love code and the community :). GitHub Star ⭐ program 🤓",
+      "tags": [
+        {
+          "tag": "community",
+          "color": "yellow"
+        },
+        {
+          "tag": "opensource",
+          "color": "lime"
+        }
+      ],
+      "github": "https://github.com/eddiejaoude",
+      "website": "http://youtube.com/eddiejaoude?sub_confirmation=1"
+    },
+    {
+      "name": "Petra",
+      "bio": "Linux and blockchain. Looking for ways to change the world",
+      "tags": [
+        {
+          "tag": "community",
+          "color": "yellow"
+        }
+      ],
+      "github": "https://github.com/metaverde",
+      "website": "https://metaverde.github.io/"
+    },
+    {
+      "name": "Amandine Flachs",
+      "bio": "",
+      "tags": [
+        {
+          "tag": "community",
+          "color": "yellow"
+        }
+      ],
+      "github": "https://github.com/AmandineFlachs",
+      "website": "https://www.flachsconsulting.com/"
+    }
+  ]
+}
