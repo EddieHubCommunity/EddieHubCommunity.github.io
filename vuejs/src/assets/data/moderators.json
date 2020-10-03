@@ -3,6 +3,8 @@
     {
       "name": "Stephen Mount",
       "bio": "After 10+ years in software engineering, I am coming up with ideas and things to reverse engineer things for the new wave of ARM etc etc",
+      "image": "https://avatars1.githubusercontent.com/u/150512",
+      "image_alt": "stemount",
       "tags": [
         {
           "tag": "community",
@@ -19,6 +21,8 @@
     {
       "name": "Michael Mba",
       "bio": "Linux Systems Integrator | Open Source Enthusiast | Photographer | Gamer || Starting my Python journey.",
+      "image": "https://avatars0.githubusercontent.com/u/13338176?s=460&u=d66a31344752bb3fa882a59b3effb10e084f226c&v=4",
+      "image_alt": "mikeysan",
       "tags": [
         {
           "tag": "community",
@@ -34,7 +38,9 @@
     },
     {
       "name": "Praveen Kumar",
-      "bio": "Microsoft MVP, Web Developer and Computer Software & UX Architect. Mentor - Full Stack @Thinkful-Ed.      ",
+      "bio": "Microsoft MVP, Web Developer and Computer Software & UX Architect. Mentor - Full Stack @Thinkful-Ed.",
+      "image": "https://avatars1.githubusercontent.com/u/1830380?s=460&u=74697d8b1cbf3e16adec7b411369afbd53ce4864&v=4",
+      "image_alt": "praveenscience",
       "tags": [
         {
           "tag": "community",
@@ -47,6 +53,8 @@
     {
       "name": "David",
       "bio": "Job: Software Developer Consultant I love programming, more specifically w/ Kotlin... it's just the best. Very interested in Web Dev and building discord bots",
+      "image": "https://avatars1.githubusercontent.com/u/18630253?s=460&u=36cdb692666236ff5db7aa3c71e58327bdbdecc7&v=4",
+      "image_alt": "BOLT04",
       "tags": [
         {
           "tag": "community",
@@ -59,6 +67,8 @@
     {
       "name": "Eddie Jaoude",
       "bio": "Fullstack open source DevRel! I love code and the community :). GitHub Star ⭐ program 🤓",
+      "image": "https://avatars3.githubusercontent.com/u/624760?s=460&v=4",
+      "image_alt": "eddiejoude",
       "tags": [
         {
           "tag": "community",
@@ -75,6 +85,8 @@
     {
       "name": "Petra",
       "bio": "Linux and blockchain. Looking for ways to change the world",
+      "image": "https://avatars1.githubusercontent.com/u/32101027?s=460&u=a3204811c6965f28996b6bcd36bdc800216d5dfe&v=4",
+      "image_alt": "metaverde",
       "tags": [
         {
           "tag": "community",
@@ -87,6 +99,8 @@
     {
       "name": "Amandine Flachs",
       "bio": "",
+      "image": "https://avatars0.githubusercontent.com/u/29413522?s=460&v=4",
+      "image_alt": "AmandineFlachs",
       "tags": [
         {
           "tag": "community",

@@ -5,34 +5,47 @@
     </h2>
 
     <div
+      v-for="projects in ProjectData"
+      :key="projects"
       class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4"
     >
       <!-- CARD ITEM -->
-      <a
+      <span
+        v-for="project in projects"
+        :key="project"
         class="bg-blue-700 rounded max-w-sm overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105"
-        href="{link}"
-        target="_blank"
       >
-        <img
-          src="{imageSrc}"
-          alt="Sample Project"
-          class="w-full h-64 object-cover"
-        />
-        <h3 class="mt-3 ml-3 font-bold text-indigo-100 text-xl mb-2">
-          {name}
-        </h3>
-        <p class="mx-3 text-indigo-100 text-base pb-3">
-          {description}
-        </p>
-      </a>
+        <a :href="project.link" target="_blank">
+          <img
+            :src="project.imageSrc"
+            alt="Sample Project"
+            class="w-full h-64 object-cover"
+          />
+          <h3 class="mt-3 ml-3 font-bold text-indigo-100 text-xl mb-2">
+            {{ project.name }}
+          </h3>
+          <p class="mx-3 text-indigo-100 text-base pb-3">
+            {{ project.description }}
+          </p>
+        </a>
+      </span>
     </div>
     <!-- END CART ITEM -->
   </div>
 </template>
 
 <script>
+import ProjectData from "../assets/data/projects.json";
+
+console.log(ProjectData);
+
 export default {
-  name: "Projects"
+  name: "Projects",
+  data() {
+    return {
+      ProjectData: ProjectData
+    };
+  }
 };
 </script>
 
