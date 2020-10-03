@@ -15,12 +15,12 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ### Quickstart
 
-Currently this project is build with only html, css.
+Currently this project is build with only Vue.
 
 1. `npm install`
-2. `npm run dev` this will open the website in your browser
+2. `npm run serve` this will open the website in your browser
 
-Each time you make a change, the browser will reload (refresh) the changes automatically for you
+Each time you make a change, the browser will recompile (refresh) the changes automatically for you
 
 ### Building the application
 
@@ -33,14 +33,14 @@ npm run build
 ### Automated testing
 
 1. `npm install` to install dependencies like Cypress for browser testing
-2. `npm start`
+2. `npm run serve`
 3. `npm run cypress:open`
 
 ![cypress](https://user-images.githubusercontent.com/624760/93663089-15a10c80-fa5d-11ea-94c8-d5ee40f602c3.png)
 
 ### Run tests headless (CI)
 
-1. `npm start`
+1. `npm run serve`
 2. `npm test`
 
 ```
