@@ -3,13 +3,19 @@
         "browser": true,
         "es2021": true
     },
-    "extends": [
-        "standard"
-    ],
+    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaVersion": 12,
         "sourceType": "module"
     },
+    "plugins": ["svelte3"],
+    "extends": ["eslint:recommended"],
+    "overrides": [
+        {
+        "files": ["**/*.svelte"],
+        "processor": "svelte3/svelte3"
+        }
+    ],
     "rules": {
     }
 }
