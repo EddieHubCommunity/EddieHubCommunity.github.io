@@ -21,13 +21,11 @@
       <i class="fab fa-discord"></i>
       Discord</a
     >
-  </div></template
->
+  </div>
+</template>
 
 <script>
-export default {
-  name: "Footer"
-};
+export default {};
 </script>
 
 <style></style>

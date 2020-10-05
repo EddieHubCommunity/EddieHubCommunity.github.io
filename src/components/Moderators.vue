@@ -4,7 +4,7 @@
       Our Moderators
     </h2>
     <!-- Start for loop MODERATORS-->
-    <div v-for="moderators in ModeratorsData" :key="moderators">
+    <div v-for="moderators in moderatorsData" :key="moderators">
       <div
         class="grid grid-cols-1 gap-5 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 py-2"
       >
@@ -26,12 +26,12 @@
             >
               <!-- TAGS -->
               <span v-for="tags in moderator.tags" :key="tags">
-                <button
-                  class="rounded px-1 text-black text-sm mr-1"
+                <label
+                  class="rounded text-black text-sm mr-1 p-1"
                   :style="{ backgroundColor: tags.color }"
                 >
                   {{ tags.tag }}
-                </button>
+                </label>
               </span>
               <h1
                 class="font-medium text-lg sm:text-xl md:text-xl lg:text-xl xl:text-xl font-medium pt-2 sm:pt-1 md:pt-1 lg:pt-1"
@@ -92,13 +92,12 @@
 </template>
 
 <script>
-import ModeratorsData from "../assets/data/moderators.json";
-console.log(ModeratorsData);
+import moderatorsData from "../assets/data/moderators.json";
+
 export default {
-  name: "Moderators",
   data() {
     return {
-      ModeratorsData
+      moderatorsData
     };
   }
 };

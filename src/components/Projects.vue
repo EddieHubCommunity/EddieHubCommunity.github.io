@@ -5,7 +5,7 @@
     </h2>
 
     <div
-      v-for="projects in ProjectData"
+      v-for="projects in projectData"
       :key="projects"
       class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4"
     >
@@ -35,15 +35,12 @@
 </template>
 
 <script>
-import ProjectData from "../assets/data/projects.json";
-
-console.log(ProjectData);
+import projectData from "../assets/data/projects.json";
 
 export default {
-  name: "Projects",
   data() {
     return {
-      ProjectData: ProjectData
+      projectData
     };
   }
 };
