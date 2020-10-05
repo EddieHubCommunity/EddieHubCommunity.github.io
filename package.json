@@ -22,10 +22,11 @@
   "license": "MIT",
   "homepage": "https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io#readme",
   "devDependencies": {
-    "cypress": "^5.2.0",
-    "cypress-cucumber-preprocessor": "^2.5.5",
     "@rollup/plugin-commonjs": "^14.0.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
+    "cypress": "^5.2.0",
+    "cypress-cucumber-preprocessor": "^2.5.5",
+    "prettier": "2.1.2",
     "rollup": "^2.3.4",
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-svelte": "^6.0.0",
