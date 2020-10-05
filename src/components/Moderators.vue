@@ -6,12 +6,13 @@
     <!-- Start for loop MODERATORS-->
     <div v-for="moderators in ModeratorsData" :key="moderators">
       <div
-        v-for="moderator in moderators"
-        :key="moderator"
         class="grid grid-cols-1 gap-5 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 py-2"
       >
-        <!-- {{ moderator }} -->
-        <div class="bg-gray-0 h-32 md:h-48 lg:h-48">
+        <div
+          class="bg-gray-0 h-32 md:h-48 lg:h-48"
+          v-for="moderator in moderators"
+          :key="moderator"
+        >
           <div class="flex flex-inline">
             <div class="h-32 w-32 lg:h-48 lg:w-48 md:h-48 md:w-48">
               <img
