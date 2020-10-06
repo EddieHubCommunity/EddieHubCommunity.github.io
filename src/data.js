@@ -1,27 +1,111 @@
+const techIconsData = {
+  angular: {
+    imgSrc: "img/angular.svg",
+    imgAlt: "Angular logo",
+    name: "Angular"
+  },
+  bootstrap: {
+    imgSrc: "img/bootstrap.svg",
+    imgAlt: "Bootstrap logo",
+    name: "Bootstrap"
+  },
+  cypress: {
+    imgSrc: "img/cypress.svg",
+    imgAlt: "Cypress logo",
+    name: "Cypress"
+  },
+  docker: {
+    imgSrc: "img/docker.svg",
+    imgAlt: "Docker logo",
+    name: "Docker"
+  },
+  firebase: {
+    imgSrc: "img/firebase.svg",
+    imgAlt: "Firebase logo",
+    name: "Firebase"
+  },
+  javascript: {
+    imgSrc: "img/javascript.svg",
+    imgAlt: "JavaScript logo",
+    name: 'JavaScript'
+  },
+  kubernetes: {
+    imgSrc: "img/kubernetes.svg",
+    imgAlt: "Kubernetes logo",
+    name: "Kubernetes"
+  },
+  nodejs: {
+    imgSrc: "img/nodejs.svg",
+    imgAlt: "Node.js logo",
+    name: "Node.js"
+  },
+  react: {
+    imgSrc: "img/react.svg",
+    imgAlt: "React logo",
+    name: "React"
+  },
+  svelte: {
+    imgSrc: "img/svelte.svg",
+    imgAlt: "Svelte logo",
+    name: "Svelte"
+  },
+  tailwindcss: {
+    imgSrc: "img/tailwindcss.svg",
+    imgAlt: "Tailwind CSS logo",
+    name: "Tailwind CSS"
+  },
+  typescript: {
+    imgSrc: "img/typescript.svg",
+    imgAlt: "TypeScript logo",
+    name: "TypeScript"
+  }
+};
+
 export const projects = [
   {
     name: "EddieBot",
     imageSrc: "https://user-images.githubusercontent.com/624760/91444835-3797dc80-e86d-11ea-8dfa-d7993a4d382d.png",
     description: "Discord bot for Eddie Jaoude's Discord server.",
     link: "https://github.com/EddieJaoudeCommunity/EddieBot",
+    techList: [
+      techIconsData.typescript,
+      techIconsData.docker
+    ]
   },
   {
     name: "LiveStream GitOps Demo",
     imageSrc: "https://user-images.githubusercontent.com/624760/91444606-e687e880-e86c-11ea-9001-522fc212c7c5.png",
     description: "GitOps live stream repo for EddieBot",
     link: "https://github.com/EddieJaoudeCommunity/LiveStream-GitOps-Demo",
+    techList: [
+      techIconsData.javascript,
+      techIconsData.nodejs,
+      techIconsData.docker,
+      techIconsData.kubernetes
+    ]
   },
   {
     name: "EddieBot Map",
     imageSrc: "https://user-images.githubusercontent.com/624760/91445888-9f9af280-e86e-11ea-8180-9198953bc33d.png",
     description: "Live steaming background with a map and maybe more ...",
     link: "https://github.com/EddieJaoudeCommunity/EddieBotMap",
+    techList: [
+      techIconsData.javascript,
+      techIconsData.angular,
+      techIconsData.firebase
+    ]
   },
   {
     name: "Eddie Jaoude Community website",
     imageSrc: "https://user-images.githubusercontent.com/624760/91445058-83e31c80-e86d-11ea-8243-3ca11b384d40.png",
     description: "Information about our community",
     link: "https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io",
+    techList: [
+      techIconsData.javascript,
+      techIconsData.svelte,
+      techIconsData.tailwindcss,
+      techIconsData.cypress
+    ]
   },
   {
     name: "Support",
@@ -34,6 +118,11 @@ export const projects = [
     imageSrc: "https://user-images.githubusercontent.com/624760/91444606-e687e880-e86c-11ea-9001-522fc212c7c5.png",
     description: "EddieBotUI is the front end application that shows Eddie Jaoude Discord Community's public stats.",
     link: "https://github.com/EddieJaoudeCommunity/EddieBotUI",
+    techList: [
+      techIconsData.javascript,
+      techIconsData.react,
+      techIconsData.bootstrap
+    ]
   },
   {
     name: "Awesome GitHub Profiles",
@@ -143,4 +232,4 @@ export const footerData = [
     i: "fab fa-discord",
     link: "https://discord.com/invite/jZQs6Wu"
   }
-]
+];

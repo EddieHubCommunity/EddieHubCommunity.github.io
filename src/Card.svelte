@@ -3,6 +3,7 @@
   export let imageSrc = '';
   export let name = '';
   export let description = '';
+  export let techList = [];
 </script>
 
 <a
@@ -21,4 +22,15 @@
   <p class="mx-3 text-indigo-100 text-base pb-3">
     {description}
   </p>
+
+  <div class="mx-3 p-2 flex justify-center items-center">
+    {#each techList as techItem}
+      <div class="flex flex-col items-center">
+        <img class="w-16 h-16" src={techItem.imgSrc} alt={techItem.imgAlt} />
+        <span class="mt-2 mx-3 text-indigo-100 text-sm">
+          {techItem.name}
+        </span>
+      </div>
+    {/each}
+  </div>
 </a>
