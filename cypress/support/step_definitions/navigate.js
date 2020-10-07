@@ -1,7 +1,7 @@
-import { Given } from "cypress-cucumber-preprocessor/steps";
-import os from 'os';
+import { Given } from 'cypress-cucumber-preprocessor/steps';
 
-const url = `http://linux-rpqu:8080`;
-Given("I open the website", () => {
+const url = 'http://127.0.0.1:8080/';
+Given('I open the website', () => {
+  // eslint-disable-next-line no-undef
   cy.visit(url);
 });

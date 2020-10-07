@@ -9,8 +9,8 @@
   "scripts": {
     "test": "cypress run",
     "test:run": "concurrently -k --success first \"npm run test\" \"npm run start\"",
-    "lint": "eslint ./src --ext .svelte,.js",
-    "lint:fix": "eslint ./src --ext .svelte,.js --fix",
+    "lint": "eslint ./src ./cypress --ext .svelte,.js",
+    "lint:fix": "eslint ./src ./cypress --ext .svelte,.js --fix",
     "setup": "npm install && npm run lint && npm run build && npm run test:run",
     "cypress:open": "cypress open",
     "build": "rollup -c",
