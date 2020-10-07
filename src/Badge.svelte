@@ -1,5 +1,5 @@
 <script>
-  import { badges } from "./data";
+  import { badges } from './data';
   export let type;
   const { title, classes } = badges[type];
 </script>

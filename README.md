@@ -17,7 +17,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Currently this project is build with only html, css.
 
-1. `npm install`
+1. `npm run setup` will install dependencies, lint, build and test to make sure your environment is setup
 2. `npm run dev` this will open the website in your browser
 
 Each time you make a change, the browser will reload (refresh) the changes automatically for you
@@ -30,18 +30,22 @@ To create an optimised version of the app:
 npm run build
 ```
 
+### Standardized Project Style
+
+Before commit:
+1. `npm run lint:fix`
+  
+
 ### Automated testing
 
-1. `npm install` to install dependencies like Cypress for browser testing
-2. `npm start`
-3. `npm run cypress:open`
+1. `npm start`
+2. `npm run cypress:open`
 
 ![cypress](https://user-images.githubusercontent.com/624760/93663089-15a10c80-fa5d-11ea-94c8-d5ee40f602c3.png)
 
 ### Run tests headless (CI)
 
-1. `npm start`
-2. `npm test`
+1. `npm run test:run`
 
 ```
 EddieJaoudeCommunity.github.io git:(cypress) ✗ npm test

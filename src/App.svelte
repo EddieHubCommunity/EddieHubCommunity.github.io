@@ -1,8 +1,8 @@
 <script>
-  import Card from "./Card.svelte";
-  import HorizontalCard from "./HorizontalCard.svelte";
-  import Footer from "./Footer.svelte";
-  import { footerData, moderators, projects } from "./data";
+  import Card from './Card.svelte';
+  import HorizontalCard from './HorizontalCard.svelte';
+  import Footer from './Footer.svelte';
+  import { footerData, moderators, projects } from './data';
 
 </script>
 

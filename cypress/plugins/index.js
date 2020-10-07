@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
 /// <reference types="cypress" />
 // ***********************************************************
 // This example plugins/index.js can be used to load plugins
@@ -15,8 +17,8 @@
 /**
  * @type {Cypress.PluginConfig}
  */
-const cucumber = require("cypress-cucumber-preprocessor").default;
+const cucumber = require('cypress-cucumber-preprocessor').default;
 
 module.exports = (on, config) => {
-  on("file:preprocessor", cucumber());
+  on('file:preprocessor', cucumber());
 };

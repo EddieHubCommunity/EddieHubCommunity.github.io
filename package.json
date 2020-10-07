@@ -8,6 +8,10 @@
   },
   "scripts": {
     "test": "cypress run",
+    "test:run": "concurrently -k --success first \"npm run test\" \"npm run start\"",
+    "lint": "eslint ./src ./cypress --ext .svelte,.js",
+    "lint:fix": "eslint ./src ./cypress --ext .svelte,.js --fix",
+    "setup": "npm install && npm run lint && npm run build && npm run test:run",
     "cypress:open": "cypress open",
     "build": "rollup -c",
     "dev": "rollup -c -w",
@@ -24,6 +28,8 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
+    "babel-eslint": "^10.1.0",
+    "concurrently": "^5.3.0",
     "cypress": "^5.2.0",
     "cypress-cucumber-preprocessor": "^2.5.5",
     "eslint": "^7.10.0",
