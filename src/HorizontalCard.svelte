@@ -1,10 +1,10 @@
 <script>
-  import Badge from "./Badge.svelte";
-  export let name = "";
-  export let description = "";
-  export let website = "";
-  export let imageSrc = "";
-  export let github = "";
+  import Badge from './Badge.svelte';
+  export let name = '';
+  export let description = '';
+  export let website = '';
+  export let imageSrc = '';
+  export let github = '';
   export let badges = [];
 </script>
 
