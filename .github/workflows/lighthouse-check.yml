@@ -1,0 +1,27 @@
+name: Test Lighthouse Check with Minimum Score Enforcement
+on:
+  push:
+  pull_request:
+    types: [opened, edited]
+
+jobs:
+  lighthouse-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      
+      - name: Run Lighthouse Check
+        uses: foo-software/lighthouse-check-action@v2.0.5
+        id: lighthouseCheck
+        with:
+          urls: 'https://eddiejaoudecommunity.github.io'
+      
+      - name: Handle Lighthouse Check results
+        uses: foo-software/lighthouse-check-status-action@master
+        with:
+          lighthouseCheckResults: ${{ steps.lighthouseCheck.outputs.lighthouseCheckResults }}
+          minAccessibilityScore: "70"
+          minBestPracticesScore: "70"
+          minPerformanceScore: "60"
+          minSeoScore: "70"
