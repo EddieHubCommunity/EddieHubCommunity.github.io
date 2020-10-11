@@ -15,7 +15,7 @@ jobs:
         uses: foo-software/lighthouse-check-action@v2.0.5
         id: lighthouseCheck
         with:
-          accessToken: ${{ secrets.LIGHTHOUSE_CHECK_GITHUB_ACCESS_TOKEN }}
+          accessToken: ${{ secrets.GITHUB_TOKEN }}
           urls: 'https://eddiejaoudecommunity.github.io'
       
       - name: Handle Lighthouse Check results
