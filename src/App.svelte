@@ -9,7 +9,9 @@
 <div
   class="min-w-screen min-h-screen bg-gray-900 flex flex-col items-center justify-center px-5 py-5"
 >
-  <img class="w-1/2" src="img/hero.svg" alt="colllaboration sketch" />
+  <a href="https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io/blob/develop/NEWCOMERS.md" target="_blank">
+    <img class="w-1/2" src="img/hero.svg" alt="colllaboration sketch" />
+  </a>
   <h3
     class="text-3xl font-semibold text-indigo-100 leading-tight relative z-10"
   >
