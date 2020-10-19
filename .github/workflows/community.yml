@@ -1,0 +1,32 @@
+on:
+  fork:
+  push:
+    branches: [ develop ]
+  issues:
+    types: [ opened ]
+  issue_comment:
+    types: [ created ]
+  pull_request_target:
+    types: [ opened ]
+  pull_request_review_comment:
+    types: [ created ]
+
+jobs:
+
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./src/welcome
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: '<h1>It''s great having you contribute to this project</h1> <p>Welcome to the community :nerd_face: If any questions please ask</p>'
+          pr-message: '<h1>It''s great having you contribute to this project</h1> <p>Welcome to the community :nerd_face: If any questions please ask</p>'
+
+  statistics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./src/statistics
+        with:
+          firebase-key: ${{ secrets.FIREBASE_KEY }}
