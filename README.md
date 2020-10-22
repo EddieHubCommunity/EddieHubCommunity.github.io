@@ -115,6 +115,9 @@ GVA encoder info: deleteSCDMetalContext : texture cache hits: 0, misses: 0
 
 ```
 
+## Note
+The available multiple tech branches e.g the Vue.js branch, are for some display purposes and to compare.
+
 ## Find us on
 - <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" /> [Discord](https://discord.com/invite/jZQs6Wu)
 - <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />  [Github](https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io)
