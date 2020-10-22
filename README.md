@@ -7,6 +7,10 @@
 - The best way to learn is to help someone else.
 - [Code Of Conduct](https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io/blob/main/CODE_OF_CONDUCT.md)
 
+## Actions
+
+- [Alex](https://github.com/get-alex/alex)
+
 ## Table of Projects
 - Projects name(repository list)
 
