@@ -7,6 +7,10 @@
 - The best way to learn is to help someone else.
 - [Code Of Conduct](https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io/blob/main/CODE_OF_CONDUCT.md)
 
+## Actions
+
+- [Alex](https://github.com/get-alex/alex)
+
 ## Table of Projects
 - Projects name(repository list)
 
@@ -114,6 +118,9 @@ GVA encoder info: deleteSCDMetalContext : texture cache hits: 0, misses: 0
     ✔  All specs passed!                        00:02        1        1        -        -        -
 
 ```
+
+## Note
+The available multiple tech branches e.g the Vue.js branch, are for some display purposes and to compare.
 
 ## Find us on
 - <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" /> [Discord](https://discord.com/invite/jZQs6Wu)
