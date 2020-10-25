@@ -25,7 +25,6 @@ const HorizontalCard: React.FC<Moderator> = ({
               .trim()
               .split(" ")
               .join("")
-              .toLocaleLowerCase()
               .toLocaleLowerCase() ? (
               <Badge key={idx} classes={allBadges.community.classes} title={badge} />
             ) : badge.toLocaleLowerCase() ===
@@ -33,7 +32,6 @@ const HorizontalCard: React.FC<Moderator> = ({
                 .trim()
                 .split(" ")
                 .join("")
-                .toLocaleLowerCase()
                 .toLocaleLowerCase() ? (
               <Badge key={idx} classes={allBadges.opensource.classes} title={badge} />
             ) : badge.toLocaleLowerCase() ===
@@ -41,7 +39,6 @@ const HorizontalCard: React.FC<Moderator> = ({
                 .trim()
                 .split(" ")
                 .join("")
-                .toLocaleLowerCase()
                 .toLocaleLowerCase() ? (
               <Badge key={idx} classes={allBadges.python.classes} title={badge} />
             ) : badge.toLocaleLowerCase() ===
@@ -49,7 +46,6 @@ const HorizontalCard: React.FC<Moderator> = ({
                 .trim()
                 .split(" ")
                 .join("")
-                .toLocaleLowerCase()
                 .toLocaleLowerCase() ? (
               <Badge key={idx} classes={allBadges.serverBooster.classes} title={badge} />
             ) : null
