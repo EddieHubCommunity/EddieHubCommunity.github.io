@@ -1,0 +1,25 @@
+{
+    "extends":"react-app",
+    "plugins":["prettier"],
+    "rules":{
+        "quotes": ["error", "single"],
+        "indent": ["error", 2],
+        "semi": ["error", "always"]
+    },
+    "env": {
+      "browser": true,
+      "es2021": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+        "jsx": true
+    },
+    "rules": {
+      "react/jsx-uses-react": "error",
+      "react/jsx-uses-vars": "error"
+    }
+  }
+}

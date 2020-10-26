@@ -1,6 +1,6 @@
-import React from "react";
-import Badge from "./Badge";
-import { badges as allBadges, Moderator } from "../data/data";
+import React from 'react';
+import Badge from './Badge';
+import { badges as allBadges, Moderator } from '../data/data';
 
 const HorizontalCard: React.FC<Moderator> = ({
   imageSrc,
@@ -21,34 +21,18 @@ const HorizontalCard: React.FC<Moderator> = ({
         <div className="lg:w-2/3 md:w-2/3 sm:w-2/3 px-5 pt-5 sm:pt-2 lg:pt-5 rounded-r-lg">
           {badges.map((badge, idx) =>
             badge.toLocaleLowerCase() ===
-            allBadges.community.title
-              .trim()
-              .split(" ")
-              .join("")
-              .toLocaleLowerCase() ? (
+            allBadges.community.title.trim().split(' ').join('').toLocaleLowerCase() ? (
               <Badge key={idx} classes={allBadges.community.classes} title={badge} />
             ) : badge.toLocaleLowerCase() ===
-              allBadges.opensource.title
-                .trim()
-                .split(" ")
-                .join("")
-                .toLocaleLowerCase() ? (
+              allBadges.opensource.title.trim().split(' ').join('').toLocaleLowerCase() ? (
               <Badge key={idx} classes={allBadges.opensource.classes} title={badge} />
             ) : badge.toLocaleLowerCase() ===
-              allBadges.python.title
-                .trim()
-                .split(" ")
-                .join("")
-                .toLocaleLowerCase() ? (
+              allBadges.python.title.trim().split(' ').join('').toLocaleLowerCase() ? (
               <Badge key={idx} classes={allBadges.python.classes} title={badge} />
             ) : badge.toLocaleLowerCase() ===
-              allBadges.serverBooster.title
-                .trim()
-                .split(" ")
-                .join("")
-                .toLocaleLowerCase() ? (
+              allBadges.serverBooster.title.trim().split(' ').join('').toLocaleLowerCase() ? (
               <Badge key={idx} classes={allBadges.serverBooster.classes} title={badge} />
-            ) : null
+            ) : null,
           )}
           <h1 className="font-medium text-lg sm:text-xl md:text-xl lg:text-xl xl:text-xl font-medium pt-2 sm:pt-1 md:pt-1 lg:pt-1">
             {name}
@@ -59,15 +43,9 @@ const HorizontalCard: React.FC<Moderator> = ({
           <div className="hidden lg:inline-flex md:inline-flex flex flex-inline">
             {github ? (
               <div className="flex flex-inline">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href={`https://github.com/${github}`}
-                >
+                <a target="_blank" rel="noopener noreferrer" href={`https://github.com/${github}`}>
                   <i className="fa fa-github-alt pr-1 pt-6 text-purple-500 text-lg" />
-                  <p className="inline pr-5 pt-5 text-purple-500 text-lg font-medium">
-                    GitHub
-                  </p>
+                  <p className="inline pr-5 pt-5 text-purple-500 text-lg font-medium">GitHub</p>
                 </a>
               </div>
             ) : null}
@@ -75,9 +53,7 @@ const HorizontalCard: React.FC<Moderator> = ({
               <div className="flex flex-inline">
                 <a target="_blank" rel="noopener noreferrer" href={website}>
                   <i className="fa fa-link pr-1 pt-6 text-purple-500 text-lg" />
-                  <p className="inline pr-5 pt-5 text-purple-500 text-lg font-medium">
-                    Website
-                  </p>
+                  <p className="inline pr-5 pt-5 text-purple-500 text-lg font-medium">Website</p>
                 </a>
               </div>
             ) : null}
@@ -86,11 +62,7 @@ const HorizontalCard: React.FC<Moderator> = ({
           <div className="flex-inline lg:hidden sm:flex-inline md:hidden flex flex-inline">
             {github ? (
               <div>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/{github}"
-                >
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/{github}">
                   <i className="fa fa-github-alt pt-5 pr-5 text-purple-500 text-xl"></i>
                 </a>
               </div>

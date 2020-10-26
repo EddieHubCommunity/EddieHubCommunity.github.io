@@ -1,5 +1,5 @@
-import React from "react";
-import { FooterData } from "../data/data";
+import React from 'react';
+import { FooterData } from '../data/data';
 
 const Footer: React.FC<FooterData> = ({ link, i, text }): JSX.Element => {
   return (
