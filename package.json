@@ -16,6 +16,8 @@
     "@types/react-dom": "^16.9.0",
     "cypress": "^5.4.0",
     "cypress-cucumber-preprocessor": "^4.0.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.3.0",
     "lint-staged": "^10.4.2",
     "prettier": "^2.1.2",
@@ -32,6 +34,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "test:react": "react-scripts test",
     "test": "cypress run",
     "cypress:open": "cypress open",
     "eject": "react-scripts eject"
@@ -55,5 +58,10 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.6.0",
+    "@typescript-eslint/parser": "^4.6.0",
+    "eslint-plugin-react": "^7.21.5"
   }
 }
