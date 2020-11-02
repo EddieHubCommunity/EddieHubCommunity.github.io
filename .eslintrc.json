@@ -24,6 +24,9 @@
         "prettier"
     ],
     "rules": {
-        "prettier/prettier": "warn"
+        "prettier/prettier": "warn",
+        "quotes": ["error", "single"],
+        "indent": ["error", 2],
+        "semi": ["error", "always"]
     }
 }
