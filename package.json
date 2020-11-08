@@ -7,20 +7,6 @@
     "nonGlobalStepDefinitions": false
   },
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "@types/jest": "^24.0.0",
-    "@types/node": "^12.0.0",
-    "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0",
-    "cypress": "^5.4.0",
-    "cypress-cucumber-preprocessor": "^4.0.0",
-    "eslint-config-prettier": "^6.15.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "husky": "^4.3.0",
-    "lint-staged": "^10.4.2",
-    "prettier": "^2.1.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "3.4.4",
@@ -32,13 +18,24 @@
     ]
   },
   "scripts": {
+    "test": "cypress run",
+    "test:run": "concurrently -k --success first \"npm run test\" \"npm run start\"",
+    "lint": "eslint ./src ./cypress/integration --ext .tsx,.ts,.js",
+    "lint:fix": "eslint ./src ./cypress/integration --ext .tsx,.ts,.js --fix",
+    "setup": "npm install && npm run lint && npm run build && npm run test:run",
+    "cypress:open": "cypress open",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test:react": "react-scripts test",
-    "test": "cypress run",
-    "cypress:open": "cypress open",
     "eject": "react-scripts eject"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io.git"
+  },
+  "keywords": [],
+  "author": "Eddie Jaoude Community",
+  "license": "MIT",
+  "homepage": "https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io#readme",
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -60,6 +57,20 @@
     }
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "cypress": "^5.4.0",
+    "cypress-cucumber-preprocessor": "^4.0.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.2",
+    "prettier": "^2.1.2",
     "@typescript-eslint/eslint-plugin": "^4.6.0",
     "@typescript-eslint/parser": "^4.6.0",
     "eslint-plugin-react": "^7.21.5"

@@ -1,7 +1,6 @@
 {
     "env": {
-        "browser": true,
-        "es2021": true
+        "browser": true
     },
     "extends": [
         "eslint:recommended",
@@ -23,10 +22,46 @@
         "@typescript-eslint",
         "prettier"
     ],
+    "settings": {
+        "react": {
+            "createClass": "createReactClass", 
+            "pragma": "React",
+            "fragment": "Fragment",
+            "version": "detect",
+            "flowVersion": "0.53"
+        },
+        "propWrapperFunctions": [
+            "forbidExtraProps",
+            {
+                "property": "freeze",
+                "object": "Object"
+            },
+            {
+                "property": "myFavoriteWrapper"
+            }
+        ],
+        "linkComponents": [
+            "Hyperlink",
+            {
+                "name": "Link",
+                "linkAttribute": "to"
+            }
+        ]
+    },
     "rules": {
         "prettier/prettier": "warn",
-        "quotes": ["error", "single"],
-        "indent": ["error", 2],
-        "semi": ["error", "always"]
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "indent": [
+            "error",
+            2
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "react/prop-types": "off"
     }
 }
