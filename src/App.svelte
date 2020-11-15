@@ -12,11 +12,11 @@
   <a href="https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io/blob/develop/NEWCOMERS.md" target="_blank">
     <img class="w-1/2" src="img/hero.svg" alt="colllaboration sketch" />
   </a>
-  <h3
-    class="text-3xl font-semibold text-indigo-100 leading-tight relative z-10"
-  >
-    We believe Open Source is for everyone, yes you!
-  </h3>
+    <h3
+      class="text-3xl font-semibold text-indigo-100 leading-tight relative z-10 archivo"
+    >
+      We believe Open Source is for everyone, yes you!
+    </h3>
   <h2
     class="text-xl font-semibold text-indigo-100 leading-tight relative z-10"
   >
@@ -38,7 +38,7 @@
   </div>
 
   <div id="projects">
-    <h2 class="text-center text-3xl font-semibold text-indigo-100 mb-8">
+    <h2 class="text-center text-3xl font-semibold text-indigo-100 mb-8 archivo">
       Our Projects
     </h2>
 
@@ -54,7 +54,7 @@
   <div
     class="flex flex-col items-center bg-white lg:rounded m-12 py-8 px-4 lg:px-16 lg:max-w-4xl"
   >
-    <h2 class="text-center text-4xl py-5 font-semibold">
+    <h2 class="text-center text-4xl py-5 font-semibold archivo">
       How to join our
       <span class="text-teal-600 border-b-2 border-teal-600">community</span>?
     </h2>
@@ -77,7 +77,7 @@
   </div>
 
   <div class="container my-8 p-5 bg-white rounded-lg">
-    <h2 class="text-center text-4xl mb-5 py-5 font-semibold">Our Moderators</h2>
+    <h2 class="text-center text-4xl mb-5 py-5 font-semibold archivo">Our Moderators</h2>
     <div
       class="grid grid-cols-1 gap-5 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2">
       {#each moderators as moderator}
