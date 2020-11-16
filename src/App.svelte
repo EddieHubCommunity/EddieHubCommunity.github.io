@@ -12,11 +12,11 @@
   <a href="https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io/blob/develop/NEWCOMERS.md" target="_blank">
     <img class="w-1/2" src="img/hero.svg" alt="colllaboration sketch" />
   </a>
-    <h3
-      class="text-3xl font-semibold text-indigo-100 leading-tight relative z-10 archivo"
-    >
-      We believe Open Source is for everyone, yes you!
-    </h3>
+  <h3
+    class="text-3xl font-semibold text-indigo-100 leading-tight relative z-10 archivo"
+  >
+    We believe Open Source is for everyone, yes you!
+  </h3>
   <h2
     class="text-xl font-semibold text-indigo-100 leading-tight relative z-10"
   >
