@@ -70,7 +70,7 @@
       class="mt-5 text-blue-500 bg-transparent border border-solid border-blue-500 hover:bg-blue-500 hover:text-white active:bg-blue-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1"
       style="transition: all 0.15s ease"
       target="_blank"
-      href="https://github.com/EddieJaoudeCommunity/support/issues"
+      href="https://github.com/EddieJaoudeCommunity/support/issues/new?assignees=eddiejaoude%2C+mikeysan&labels=invite+me+to+the+organization&template=invitation.md&title=Please+invite+me+to+the+GitHub+Community+Organization"
     >
       Join us.
     </a>
