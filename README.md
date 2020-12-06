@@ -124,7 +124,7 @@ The available multiple tech branches e.g the Vue.js branch, are for some display
 
 ## Find us on
 - <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" /> [Discord](https://discord.com/invite/jZQs6Wu)
-- <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />  [Github](https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io)
+- <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />  [Github](https://github.com/EddieJaoudeCommunity)
 - <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />  [Youtube](https://www.youtube.com/eddiejaoude)
 
 ![Website](https://user-images.githubusercontent.com/61991582/92185956-22aee080-ee4d-11ea-9553-8598c74edde5.png)
