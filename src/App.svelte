@@ -15,12 +15,12 @@
   <h3
     class="text-3xl font-semibold text-indigo-100 leading-tight relative z-10 archivo"
   >
-    We believe Open Source is for everyone, yes you!
+    We believe Open Source is for everyone, yes you too!
   </h3>
   <h2
     class="text-xl font-semibold text-indigo-100 leading-tight relative z-10"
   >
-    OPEN SOURCE is NOT about code, it is about people and collaboration
+    OPEN SOURCE is NOT all about code, it is also the people and collaboration.
   </h2>
 
   <div
@@ -59,7 +59,7 @@
       <span class="text-teal-600 border-b-2 border-teal-600">community</span>?
     </h2>
     <p class="text-center text-xl leading-tight">
-      Raise an issue on the support repo asking to join (<a
+      Raise an issue on the support repo requesting to join the community (<a
         class="text-blue-500 underline"
         target="_blank"
         href="https://github.com/EddieJaoudeCommunity/support/issues?q=is%3Aissue+is%3Aclosed+label%3A%22invite+me+to+the+organisation%22"
