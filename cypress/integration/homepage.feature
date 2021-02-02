@@ -4,7 +4,7 @@ Feature: Homepage
 
   Scenario: Open the homepage and check title
     Given I open the website
-    Then I see "Eddie Jaoude Community" in the title
+    Then I see "EddieHub Community" in the title
 
   Scenario: Project title contains id of projects
     Given I open the website
@@ -20,7 +20,7 @@ Feature: Homepage
 
   Scenario: GitHub link goes to site
     Given I open the website
-    Then I see "http://github.com/EddieJaoudeCommunity" in "div.mt-6 a:nth-child(2)" with a "href"
+    Then I see "https://github.com/EddieHubCommunity" in "div.mt-6 a:nth-child(2)" with a "href"
 
   Scenario: Discord link goes to invite page
     Given I open the website
