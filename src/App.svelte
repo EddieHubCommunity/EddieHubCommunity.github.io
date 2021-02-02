@@ -9,9 +9,8 @@
 <div
   class="min-w-screen min-h-screen bg-gray-900 flex flex-col items-center justify-center px-5 py-5"
 >
-  <a href="https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io/blob/develop/NEWCOMERS.md" target="_blank">
-    <img class="w-1/2" src="img/hero.svg" alt="colllaboration sketch" />
-  </a>
+  <iframe width="960" height="545" src="https://www.youtube.com/embed/z-FKAC0I_VQ" title="EddieHub Community"
+    frameborder="0" allow="accelerometer; clipboard-write; autoplay=1; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <h3
     class="text-3xl font-semibold text-indigo-100 leading-tight relative z-10 archivo"
   >
