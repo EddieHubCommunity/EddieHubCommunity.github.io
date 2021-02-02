@@ -66,7 +66,7 @@ export const projects = [
     name: 'EddieBot',
     imageSrc: 'https://user-images.githubusercontent.com/624760/91444835-3797dc80-e86d-11ea-8dfa-d7993a4d382d.png',
     description: 'Discord bot for Eddie Jaoude\'s Discord server.',
-    link: 'https://github.com/EddieJaoudeCommunity/EddieBot',
+    link: 'https://github.com/EddieHubCommunity/EddieBot',
     techList: [
       techIconsData.typescript,
       techIconsData.docker
@@ -225,7 +225,7 @@ export const footerData = [
   {
     text: 'GitHub',
     i: 'fab fa-github-square',
-    link: 'http://github.com/EddieJaoudeCommunity'
+    link: 'https://github.com/EddieHubCommunity'
   },
   {
     text: 'Discord',
