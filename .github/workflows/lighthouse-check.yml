@@ -17,7 +17,7 @@ jobs:
         id: lighthouseCheck
         with:
           accessToken: ${{ secrets.GITHUB_TOKEN }}
-          urls: 'https://eddiehubcommunity.github.io'
+          urls: 'https://eddiehubcommunity.github.io/'
 
       - name: Handle Lighthouse Check results
         uses: foo-software/lighthouse-check-status-action@master
