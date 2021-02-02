@@ -65,7 +65,7 @@ export const projects = [
   {
     name: 'EddieBot',
     imageSrc: 'https://user-images.githubusercontent.com/624760/91444835-3797dc80-e86d-11ea-8dfa-d7993a4d382d.png',
-    description: 'Discord bot for Eddie Jaoude\'s Discord server.',
+    description: 'Discord bot for EddieHub\'s Discord server.',
     link: 'https://github.com/EddieHubCommunity/EddieBot',
     techList: [
       techIconsData.typescript,
@@ -76,7 +76,7 @@ export const projects = [
     name: 'LiveStream GitOps Demo',
     imageSrc: 'https://user-images.githubusercontent.com/624760/91444606-e687e880-e86c-11ea-9001-522fc212c7c5.png',
     description: 'GitOps live stream repo for EddieBot',
-    link: 'https://github.com/EddieJaoudeCommunity/LiveStream-GitOps-Demo',
+    link: 'https://github.com/EddieHubCommunity/LiveStream-GitOps-Demo',
     techList: [
       techIconsData.javascript,
       techIconsData.nodejs,
@@ -88,7 +88,7 @@ export const projects = [
     name: 'EddieBot Map',
     imageSrc: 'https://user-images.githubusercontent.com/624760/91445888-9f9af280-e86e-11ea-8180-9198953bc33d.png',
     description: 'Live streaming background with a map and maybe more ...',
-    link: 'https://github.com/EddieJaoudeCommunity/EddieBotMap',
+    link: 'https://github.com/EddieHubCommunity/EddieBotMap',
     techList: [
       techIconsData.javascript,
       techIconsData.angular,
@@ -96,10 +96,10 @@ export const projects = [
     ]
   },
   {
-    name: 'Eddie Jaoude Community website',
+    name: 'EddieHub Community website',
     imageSrc: 'https://user-images.githubusercontent.com/624760/91445058-83e31c80-e86d-11ea-8243-3ca11b384d40.png',
     description: 'Information about our community',
-    link: 'https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io',
+    link: 'https://github.com/EddieHubCommunity/EddieHubCommunity.github.io',
     techList: [
       techIconsData.javascript,
       techIconsData.svelte,
@@ -111,13 +111,13 @@ export const projects = [
     name: 'Support',
     imageSrc: 'https://user-images.githubusercontent.com/624760/91445509-1d123300-e86e-11ea-9648-c5c715355f26.png',
     description: 'Community Help & Support and AEA (Ask Everyone Anything)',
-    link: 'https://github.com/EddieJaoudeCommunity/support',
+    link: 'https://github.com/EddieHubCommunity/support',
   },
   {
     name: 'EddieBot UI',
     imageSrc: 'https://user-images.githubusercontent.com/624760/91444606-e687e880-e86c-11ea-9001-522fc212c7c5.png',
-    description: 'EddieBotUI is the front end application that shows Eddie Jaoude Discord Community\'s public stats.',
-    link: 'https://github.com/EddieJaoudeCommunity/EddieBotUI',
+    description: 'EddieBotUI is the front end application that shows EddieHub Discord Community\'s public stats.',
+    link: 'https://github.com/EddieHubCommunity/EddieBotUI',
     techList: [
       techIconsData.javascript,
       techIconsData.react,
@@ -128,13 +128,13 @@ export const projects = [
     name: 'Awesome GitHub Profiles',
     imageSrc: 'https://user-images.githubusercontent.com/624760/91445261-cefd2f80-e86d-11ea-8421-4553b29d2e4a.png',
     description: 'List of GitHub profiles that have awesome customization, that you can use for inspiration',
-    link: 'https://github.com/EddieJaoudeCommunity/awesome-github-profiles',
+    link: 'https://github.com/EddieHubCommunity/awesome-github-profiles',
   },
   {
     name: 'Hacktoberfest practice',
     imageSrc: 'https://user-images.githubusercontent.com/624760/91445718-61053800-e86e-11ea-81c7-751328c63e85.png',
     description: 'Repo for you to raise a Pull Request for practice',
-    link: 'https://github.com/EddieJaoudeCommunity/hacktoberfest-practice',
+    link: 'https://github.com/EddieHubCommunity/hacktoberfest-practice',
   },
 ];
 
