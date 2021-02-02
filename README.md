@@ -1,11 +1,11 @@
-# EddieJaoudeCommunity.github.io
+# EddieHubCommunity.github.io
 
 ## What is our community about
 - We believe open source is for everyone.
 - Our community is inclusive and a safe space for all.
 - Please welcome new people.
 - The best way to learn is to help someone else.
-- [Code Of Conduct](https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io/blob/main/CODE_OF_CONDUCT.md)
+- [Code Of Conduct](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/blob/main/CODE_OF_CONDUCT.md)
 
 ## Actions
 
@@ -38,7 +38,7 @@ npm run build
 
 Before commit:
 1. `npm run lint:fix`
-  
+
 
 ### Automated testing
 
@@ -52,9 +52,9 @@ Before commit:
 1. `npm run test:run`
 
 ```
-EddieJaoudeCommunity.github.io git:(cypress) ✗ npm test
+EddieHubCommunity.github.io git:(cypress) ✗ npm test
 
-> eddie@1.0.0 test /Users/ej/Downloads/repos/EddieJaoudeCommunity.github.io
+> eddie@1.0.0 test /Users/ej/Downloads/repos/EddieHubCommunity.github.io
 > cypress run --spec "**/*.feature"
 
 GVA encoder info: AMD performance mode : 2
@@ -102,7 +102,7 @@ GVA encoder info: deleteSCDMetalContext : texture cache hits: 0, misses: 0
   (Video)
 
   -  Started processing:  Compressing to 32 CRF
-  -  Finished processing: /Users/ej/Downloads/repos/EddieJaoudeCommunity.github.io/cy    (0 seconds)
+  -  Finished processing: /Users/ej/Downloads/repos/EddieHubCommunity.github.io/cy    (0 seconds)
                           press/videos/featureurl.feature.mp4
 
 
@@ -124,7 +124,7 @@ The available multiple tech branches e.g the Vue.js branch, are for some display
 
 ## Find us on
 <a href="https://discord.com/invite/jZQs6Wu"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"><br>
-<a href="https://github.com/EddieJaoudeCommunity"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" width="102px"></a><br>
+<a href="https://github.com/EddieHubCommunity"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" width="102px"></a><br>
 <a href="https://www.youtube.com/eddiejaoude"><img alt="Surpath YouTube" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
 
 ![Website](https://user-images.githubusercontent.com/61991582/92185956-22aee080-ee4d-11ea-9553-8598c74edde5.png)

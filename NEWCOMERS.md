@@ -73,4 +73,4 @@ CONGRATULATIONS ON YOUR SUCCESSFUL CONTRIBUTION :balloon:
 
 If you encounter any issues, feel free to contact us on our [discord channel](https://discord.com/invite/jZQs6Wu).
 
-THANK YOU FOR CONTRIBUTING TO THE EDDIE JAOUDE COMMUNITY
+THANK YOU FOR CONTRIBUTING TO THE EDDIEHUB COMMUNITY
