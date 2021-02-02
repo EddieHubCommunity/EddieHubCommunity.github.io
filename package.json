@@ -1,7 +1,7 @@
 {
   "name": "eddie",
   "version": "1.0.0",
-  "description": "## What is our community about - We believe open source is for everyone. - Our community is inclusive and a safe space for all. - Please welcome new people. - The best way to learn is to help someone else. - [Code Of Conduct](https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io/blob/main/CODE_OF_CONDUCT.md)",
+  "description": "## What is our community about - We believe open source is for everyone. - Our community is inclusive and a safe space for all. - Please welcome new people. - The best way to learn is to help someone else. - [Code Of Conduct](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/blob/main/CODE_OF_CONDUCT.md)",
   "main": "index.js",
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": false
@@ -19,12 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io.git"
+    "url": "git+https://github.com/EddieHubCommunity/EddieHubCommunity.github.io.git"
   },
   "keywords": [],
-  "author": "Eddie Jaoude Community",
+  "author": "EddieHub Community",
   "license": "MIT",
-  "homepage": "https://github.com/EddieJaoudeCommunity/EddieJaoudeCommunity.github.io#readme",
+  "homepage": "https://github.com/EddieHubCommunity/EddieHubCommunity.github.io#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
