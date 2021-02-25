@@ -155,6 +155,10 @@ export const badges = {
     title: 'Opensource',
     classes: 'bg-green-400 text-white',
   },
+  cat: {
+    title: 'Cat Lover',
+    classes: 'bg-orange-200',
+  },
 };
 
 export const moderators = [
@@ -175,12 +179,12 @@ export const moderators = [
     badges: ['community', 'python'],
   },
   {
-    name: 'Praveen Kumar',
+    name: 'Praveen Kumar Purushothaman',
     description: 'Microsoft MVP, Web Developer and Computer Software & UX Architect. Mentor - Full Stack @Thinkful-Ed.',
     website: 'https://praveen.science/',
-    imageSrc: 'https://avatars1.githubusercontent.com/u/1830380?s=460&u=74697d8b1cbf3e16adec7b411369afbd53ce4864&v=4',
+    imageSrc: 'https://i.imgur.com/XdP5iyp.png',
     github: 'praveenscience',
-    badges: ['community'],
+    badges: ['community', 'cat'],
   },
   {
     name: 'David',
