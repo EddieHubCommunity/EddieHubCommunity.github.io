@@ -218,6 +218,14 @@ export const moderators = [
     github: 'AmandineFlachs',
     badges: ['community'],
   },
+  {
+    name: 'Allan Regush',
+    description: 'Passionate about all things hardware and software. I consider myself a jack of all trades - a master of some.',
+    website: '',
+    imageSrc: 'https://avatars.githubusercontent.com/u/17693494?s=400&u=5cfa4838b83a0d239c097026fbbae302611d2ccb&v=4',
+    github: 'AllanRegush',
+    badges: ['community'],
+  },
 ];
 
 export const footerData = [
