@@ -127,4 +127,4 @@ The available multiple tech branches e.g the Vue.js branch, are for some display
 <a href="https://github.com/EddieHubCommunity"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" width="102px"></a><br>
 <a href="https://www.youtube.com/eddiejaoude"><img alt="Surpath YouTube" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
 
-![Website](https://user-images.githubusercontent.com/61991582/92185956-22aee080-ee4d-11ea-9553-8598c74edde5.png)
+![Website](https://user-images.githubusercontent.com/44549418/109976323-a7f24f80-7d21-11eb-8348-393b7ee10a8c.jpg)
