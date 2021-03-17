@@ -3,8 +3,6 @@
   import HorizontalCard from './HorizontalCard.svelte';
   import Footer from './Footer.svelte';
   import { footerData, moderators, projects } from './data';
-  console.log(moderators);
-  console.log('Hello world');
 </script>
 
 <div
