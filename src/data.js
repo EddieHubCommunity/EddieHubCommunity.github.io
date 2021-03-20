@@ -85,14 +85,12 @@ export const projects = [
     ]
   },
   {
-    name: 'EddieBot Map',
-    imageSrc: 'https://user-images.githubusercontent.com/624760/91445888-9f9af280-e86e-11ea-8180-9198953bc33d.png',
-    description: 'Live streaming background with a map and maybe more ...',
-    link: 'https://github.com/EddieHubCommunity/EddieBotMap',
+    name: 'GitHub Action Community',
+    imageSrc: 'https://user-images.githubusercontent.com/54075838/111803731-576c1c00-88f5-11eb-87df-6afa73ae917f.png',
+    description: 'GitHub Action for the Community, from welcoming first timers to badges.',
+    link: 'https://github.com/EddieHubCommunity/gh-action-community',
     techList: [
       techIconsData.javascript,
-      techIconsData.angular,
-      techIconsData.firebase
     ]
   },
   {
