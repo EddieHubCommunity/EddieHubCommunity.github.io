@@ -231,7 +231,7 @@ export const moderators = [
     description:'Developer @freecodecamp',
     website:'https://www.nhcarrigan.com',
     imageSrc:'https://avatars.githubusercontent.com/u/63889819?s=400&u=9dab24c783a82afce97cfe6438f242e6df641243&v=4',
-    github:'https://github.com/nhcarrigan',
+    github:'nhcarrigan',
     badges:['community']
   }
 ];
