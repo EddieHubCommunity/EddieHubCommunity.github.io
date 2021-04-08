@@ -226,6 +226,14 @@ export const moderators = [
     github: 'AllanRegush',
     badges: ['community'],
   },
+  {
+    name:'Nicholas Carrigan',
+    description:'Developer @freecodecamp',
+    website:'https://www.nhcarrigan.com',
+    imageSrc:'https://avatars.githubusercontent.com/u/63889819?s=400&u=9dab24c783a82afce97cfe6438f242e6df641243&v=4',
+    github:'nhcarrigan',
+    badges:['community']
+  }
 ];
 
 export const footerData = [
