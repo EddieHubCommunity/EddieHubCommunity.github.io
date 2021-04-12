@@ -39,7 +39,7 @@
   <div>
     <img
       src="https://user-images.githubusercontent.com/76584243/111971513-6edc1c80-8b22-11eb-83df-277a0a8f4fd8.png"
-      alt="" />
+      alt="EddieHub Banner" />
   </div>
 
   <div id="projects">
