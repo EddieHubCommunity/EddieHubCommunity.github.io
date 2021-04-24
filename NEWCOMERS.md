@@ -71,6 +71,6 @@ CONGRATULATIONS ON YOUR SUCCESSFUL CONTRIBUTION :balloon:
 
 ---
 
-If you encounter any issues, feel free to contact us on our [discord channel](https://discord.com/invite/jZQs6Wu).
+If you encounter any issues, feel free to contact us on our [discord channel](http://discord.eddiehub.org).
 
 THANK YOU FOR CONTRIBUTING TO THE EDDIEHUB COMMUNITY
