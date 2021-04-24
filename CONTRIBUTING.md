@@ -10,7 +10,7 @@ Our projects are open to all contributors. To get started with contributing to o
 
 - If this is your first contribution, see [NEWCOMERS.md](NEWCOMERS.md). You might also want to take up issues with the [good first issue](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) or the [help wanted](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/labels/help%20wanted) label.
 
-- Discuss the changes you wish to make by creating an [issue](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/issues/new), comment on an already created issue, or contact us via our [discord channel](https://discord.com/invite/jZQs6Wu).
+- Discuss the changes you wish to make by creating an [issue](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/issues/new), comment on an already created issue, or contact us via our [discord channel](http://discord.eddiehub.org).
 - Once you have been assigned the issue by the maintainer, you can go ahead to fork the repo, clone and make changes to fix the issue. For steps on how to do this, [this here](NEWCOMERS.md) is a helpful guide.
 
 ## MAKING YOUR PULL REQUEST
@@ -26,5 +26,5 @@ Kudos to you :balloon:
 
 ---
 
-Feel free to reach out to us on our [discord channel](https://discord.com/invite/jZQs6Wu). <br>
+Feel free to reach out to us on our [discord channel](http://discord.eddiehub.org). <br>
 THANK YOU FOR CONTRIBUTING TO EDDIEHUB COMMUNITY.
