@@ -1,15 +1,25 @@
 <script>
+  import { onMount } from 'svelte';
   import Card from './Card.svelte';
   import HorizontalCard from './HorizontalCard.svelte';
   import Footer from './Footer.svelte';
   import { footerData, moderators, projects } from './data';
 
+  function init() {
+    const imgs = document.querySelectorAll('[data-src]');
+    imgs.forEach(function(element) {
+      if(element.getAttribute('data-src')) {
+        element.setAttribute('src', element.getAttribute('data-src'));
+      }
+    })
+  }
+  onMount(init());
 </script>
 
 <div
   class="min-w-screen min-h-screen bg-gray-900 flex flex-col items-center justify-center px-5 py-5"
 >
-  <iframe class="w-full md:w-1/4 h-56" src="https://www.youtube.com/embed/z-FKAC0I_VQ" title="EddieHub Community"
+  <iframe class="w-full md:w-1/4 h-56" src="" data-src="https://www.youtube.com/embed/z-FKAC0I_VQ" title="EddieHub Community"
     frameborder="0" allow="accelerometer; clipboard-write; autoplay=1; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   <h3

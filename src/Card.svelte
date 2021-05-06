@@ -12,7 +12,8 @@
   target="_blank"
 >
   <img
-    src="{imageSrc}"
+    src=""
+    data-src="{imageSrc}"
     alt="Sample Project"
     class="w-full h-64 object-cover"
   />
