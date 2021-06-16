@@ -6,7 +6,6 @@
 - Our community is inclusive and a safe space for all.
 - Please welcome new people.
 - The best way to learn is to help someone else.
-- [Code Of Conduct](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/blob/main/CODE_OF_CONDUCT.md)
 
 ## Find us on
 
