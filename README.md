@@ -6,8 +6,8 @@ Website built using [Kartra](http://links.eddiejaoude.io/t/pQ5W3FRLk8Cp) a low c
 
 - We believe open source is for everyone.
 - Our community is inclusive and a safe space for all.
-- Please welcome new people.
-- The best way to learn is to help someone else.
+- Please welcome newcomers.
+- The finest way to learn is to assist someone else.
 - [Code Of Conduct](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/blob/main/CODE_OF_CONDUCT.md)
 
 ## Find us on
