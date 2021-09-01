@@ -1,6 +1,6 @@
 # EddieHubCommunity.github.io
 
-Website built using [Kartra](http://links.eddiejaoude.io/t/pQ5W3FRLk8Cp) a low code platform. Please use Issues here to track ideas / improvements / suggestions / bugs etc.
+Website built using [Kartra](http://links.eddiejaoude.io/t/pQ5W3FRLk8Cp) a low code platform. This repo is only used to for Issues to track ideas / improvements / suggestions / bugs etc.
 
 ## What is our community about
 
