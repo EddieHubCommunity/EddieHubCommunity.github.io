@@ -8,6 +8,7 @@ Website built using [Kartra](http://links.eddiejaoude.io/t/pQ5W3FRLk8Cp) a low c
 - Our community is inclusive and a safe space for all.
 - Please welcome newcomers.
 - The finest way to learn is to assist someone else.
+- Only a life lived for others is a life worthwhile. 
 - [Code Of Conduct](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/blob/main/CODE_OF_CONDUCT.md)
 
 ## Find us on
