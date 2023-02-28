@@ -12,9 +12,11 @@ Website built using [Kartra](http://links.eddiejaoude.io/t/pQ5W3FRLk8Cp) a low c
 
 ## Find us on
 
-<a href="http://discord.eddiehub.org"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"><br>
-<a href="https://github.com/EddieHubCommunity"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" width="102px"></a><br>
-<a href="https://www.youtube.com/eddiejaoude"><img alt="Eddie Jaoude YouTube" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a><br>
-<a href="https://twitter.com/eddiejaoude"><img src="https://img.shields.io/badge/Twitter-100000?style=for-the-badge&logo=twitter&logoColor=blue" width="102px"></a><br>
-<a href="https://instagram.com/eddiejaoude"><img src="https://img.shields.io/badge/Instagram-purple?style=for-the-badge&logo=Instagram&logoColor=white" width="102px"></a><br>
-<a href="https://www.linkedin.com/company/eddiehub/"><img src="https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=#0077b5" width="102px"></a>
+  <div align="center">
+    <a href="http://discord.eddiehub.org"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">
+    <a href="https://github.com/EddieHubCommunity"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" width="102px"></a>
+    <a href="https://www.youtube.com/eddiejaoude"><img alt="Eddie Jaoude YouTube" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
+    <a href="https://twitter.com/eddiejaoude"><img src="https://img.shields.io/badge/Twitter-100000?style=for-the-badge&logo=twitter&logoColor=blue" width="102px"></a>
+    <a href="https://instagram.com/eddiejaoude"><img src="https://img.shields.io/badge/Instagram-purple?style=for-the-badge&logo=Instagram&logoColor=white" width="102px"></a>
+    <a href="https://www.linkedin.com/company/eddiehub/"><img src="https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=#0077b5" width="102px"></a>
+  </div>
