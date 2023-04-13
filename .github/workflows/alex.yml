@@ -7,12 +7,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Use Node.js
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v3
       with:
         node-version: 12.x
     - name: Comment on new PR
-      uses: brown-ccv/alex-recommends@v1.1.2
+      uses: brown-ccv/alex-recommends@v1.2.1
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
