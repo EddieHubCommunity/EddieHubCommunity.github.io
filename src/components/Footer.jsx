@@ -7,11 +7,47 @@ import { NavLink } from '@/components/NavLink'
 
 import DiscordLogo from '@/images/logos/discord.svg'
 import GitHubLogo from '@/images/logos/github.svg'
+import WeMakeDevs from '@/images/logos/WeMakeDevs.jpg'
+import ContentCreators4Cs from '@/images/logos/ContentCreators4Cs.jpg'
 
 export function Footer() {
   return (
     <footer className="bg-slate-50">
       <Container>
+        <div className="text-center">
+          <p className="font-display text-base text-slate-900">
+            Community Partners: Other great communities we collaborate with
+          </p>
+          <ul
+            role="list"
+            className="mt-8 flex items-center justify-center gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
+          >
+            {[
+              [
+                { name: 'WeMakeDevs', logo: WeMakeDevs },
+                { name: '4C', logo: ContentCreators4Cs },
+              ],
+            ].map((group, groupIndex) => (
+              <li key={groupIndex}>
+                <ul
+                  role="list"
+                  className="flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0"
+                >
+                  {group.map((company) => (
+                    <li key={company.name} className="flex">
+                      <Image
+                        src={company.logo}
+                        alt={company.name}
+                        unoptimized
+                        width="50"
+                      />
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ))}
+          </ul>
+        </div>
         <div className="py-16">
           <Logo className="mx-auto h-10 w-auto" />
           <nav className="mt-10 text-sm" aria-label="quick links">
