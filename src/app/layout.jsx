@@ -5,11 +5,11 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s - TaxPal',
-    default: 'TaxPal - Accounting made simple for small businesses',
+    template: '%s - EddieHub',
+    default: 'EddieHub - Inclusive Open Source Community',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'EddieHub is Open Source community which encourages & promotes communication best practices & technical expertise in inclusive & welcoming environment.',
 }
 
 const inter = Inter({
