@@ -31,6 +31,21 @@ module.exports = {
       maxWidth: {
         '2xl': '40rem',
       },
+      colors: {
+        "primary": {
+          50: "#FEF5F1",
+          100: "#FCEBE3",
+          200: "#FAD3C2",
+          300: "#F6B89D",
+          400: "#F2966E",
+          500: "#EC662B",
+          600: "#E15214",
+          700: "#C94912",
+          800: "#A43B0F",
+          900: "#7A2C0B",
+          950: "#541F08"
+        }
+      }
     },
   },
   plugins: [formsPlugin, headlessuiPlugin],
