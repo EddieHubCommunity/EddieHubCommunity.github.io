@@ -1,55 +1,58 @@
+import Image from 'next/image'
+
 import { Container } from '@/components/Container'
+import backgroundImage from '@/images/background-faqs.jpg'
 
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'How do I join EddieHub?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        `EddieHub has many community and cross community platforms, events and calls. It is best to sign up to the Newsletter and join Discord to start collaborating with the inclusive EddieHub community. More information can be found in blog post on getting started.`,
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: 'How do I join the EddieHub GitHub Organisation?',
+      answer: 'If you would like to join the EddieHub GitHub organisation, then please fill out this form so that you can get an automatic invite to the organisation. If you want the organisation to appear on your profile then make sure that you make it public (as by default it is marked as private).',
     },
     {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'Who is EddieHub for?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        'Whether you are just starting your journey into tech or you are a seasoned professional, you will benefit from joining EddieHub. Open Source is about collaboration first and code second.  Members include developers, testers, DevOps, technical writers, UI and UX designers.',
     },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
+      question: 'I am new to coding and / or Open Source, can I still join?',
       answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
+        'Yes! Starting out can sometimes feel lonely and overwhelming particularly with the amount of information out there. In EddieHub Discord you will find supportive channels such as #help and #first-timers. Also Eddie\'s YouTube channel is a good resource when starting out.',
     },
     {
       question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
+        'Can I find a mentor in EddieHub?',
       answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
+        'At EddieHub we believe that everyone is a mentor and can help others in the community. This community approach is beneficial for the mentee as they are exposed to various perspectives, and for the mentor they develop many of their communication and collaboration skills. Even if you are one month into your journey, there is someone who is one day in and who can benefit from your experience and insight.',
     },
     {
       question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
+        'How can I get my Open Source / Resume / GitHub Profile reviewed on a live stream?',
       answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+        'Eddie does regular reviews on live streams. To add your project / profile / resume for review please raise an issue on our support repo on GitHub.',
     },
   ],
   [
     {
-      question: 'How do you generate reports?',
+      question: 'Why does EddieBot complain about my Discord messages?',
       answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+        'At EddieHub we are passionate about moving away from gender favouring, polarising, race related, religion inconsiderate or other unequal phrasing. Therefore if you use terms such as “Hi Guys”, then EddieBot responds with a notification highlighting that this is not inclusive language and will suggest alternatives.',
     },
     {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
+      question: 'I just joined, why can\'t I post links on Discord?',
+      answer: 'You have recently joined the community and you have tried to share a link, but found that NightBot has deleted this message. We appreciate that the community is a place to share your work, which we encourage only for our regular community members (aka “Team Eddie”). To become a regular and get the role "Team Eddie", we highly suggest to get involved in the community conversation and add value by helping other community members.',
     },
     {
-      question: 'I lost my password, how do I get into my account?',
+      question: 'I love Hubber! Can I use the EddieHub mascot and logo?',
       answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+        'Check what you can and cannot do on our Branding page.',
     },
   ],
 ]
@@ -61,6 +64,14 @@ export function Faqs() {
       aria-labelledby="faq-title"
       className="relative overflow-hidden bg-slate-50 py-20 sm:py-32"
     >
+      <Image
+        className="absolute left-1/2 top-0 max-w-none -translate-y-1/4 translate-x-[-30%]"
+        src={backgroundImage}
+        alt=""
+        width={1558}
+        height={946}
+        unoptimized
+      />
       <Container className="relative">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2
