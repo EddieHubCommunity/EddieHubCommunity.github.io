@@ -86,7 +86,8 @@ export function Testimonials() {
             Testimonials
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            What it means to be part of this community in the members' own words
+            What it means to be part of this community in the members&lsquo; own
+            words
           </p>
         </div>
         <ul

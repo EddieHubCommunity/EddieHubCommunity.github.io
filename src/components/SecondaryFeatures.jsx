@@ -44,7 +44,7 @@ function Feature({ feature, isActive, className, ...props }) {
           isActive ? 'ring ring-primary-600 ring-offset-4' : '',
         )}
       >
-        <Image src={feature.icon} />
+        <Image src={feature.icon} alt={`Logo for ${feature.name}`} />
       </div>
       <h3
         className={clsx(

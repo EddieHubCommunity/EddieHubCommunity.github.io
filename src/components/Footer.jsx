@@ -65,14 +65,24 @@ export function Footer() {
               className="group"
               aria-label="EddieHub on Discord"
             >
-              <Image src={DiscordLogo} width="30" height="30" />
+              <Image
+                src={DiscordLogo}
+                width="30"
+                height="30"
+                alt="Discord logo"
+              />
             </Link>
             <Link
               href="https://github.com/EddieHubCommunity"
               className="group"
               aria-label="EddieHub on GitHub"
             >
-              <Image src={GitHubLogo} width="30" height="30" />
+              <Image
+                src={GitHubLogo}
+                width="30"
+                height="30"
+                alt="GitHub logo"
+              />
             </Link>
           </div>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
