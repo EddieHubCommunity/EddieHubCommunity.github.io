@@ -11,7 +11,16 @@ export function Newsletter() {
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
             Subscribe to the EddieHub Newsletter
           </h2>
-          <div className="my-4"><iframe src="https://eddiehub.substack.com/embed" className='rounded' width="480" height="150" frameBorder="0" scrolling="no"></iframe></div>
+          <div className="my-4">
+            <iframe
+              src="https://eddiehub.substack.com/embed"
+              className="rounded"
+              width="480"
+              height="150"
+              frameBorder="0"
+              scrolling="no"
+            ></iframe>
+          </div>
         </div>
       </Container>
     </section>

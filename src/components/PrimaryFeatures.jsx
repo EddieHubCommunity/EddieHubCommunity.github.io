@@ -56,16 +56,16 @@ export function PrimaryFeatures() {
 
   return (
     <section
-      id="features"
-      aria-label="Features for running your books"
-      className="bg-primary-600 relative overflow-hidden pb-28 pt-20 sm:py-32"
+      id="projects"
+      aria-label="EddieHub Projects"
+      className="relative overflow-hidden bg-primary-600 pb-28 pt-20 sm:py-32"
     >
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
             Here are some of our active GitHub repositories
           </h2>
-          <p className="text-primary-100 mt-6 text-lg tracking-tight">
+          <p className="mt-6 text-lg tracking-tight text-primary-100">
             Everyone is welcome to come and contribute to our open source
             projects.
           </p>
@@ -125,7 +125,7 @@ export function PrimaryFeatures() {
                         {feature.description}
                       </p>
                     </div>
-                    <div className="shadow-primary-900/20 mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
+                    <div className="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-primary-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
                       <Image
                         className="w-full"
                         src={feature.image}
