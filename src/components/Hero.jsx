@@ -2,12 +2,8 @@ import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import logoLaravel from '@/images/logos/laravel.svg'
-import logoMirage from '@/images/logos/mirage.svg'
-import logoStatamic from '@/images/logos/statamic.svg'
-import logoStaticKit from '@/images/logos/statickit.svg'
-import logoTransistor from '@/images/logos/transistor.svg'
-import logoTuple from '@/images/logos/tuple.svg'
+import WeMakeDevs from '@/images/logos/WeMakeDevs.jpg'
+import ContentCreators4Cs from '@/images/logos/ContentCreators4Cs.jpg'
 
 export function Hero() {
   return (
@@ -48,7 +44,7 @@ export function Hero() {
       </div>
       <div className="mt-36 lg:mt-44">
         <p className="font-display text-base text-slate-900">
-          Trusted by these six companies so far
+          Community Partners: Other great communities we collaborate with
         </p>
         <ul
           role="list"
@@ -56,14 +52,8 @@ export function Hero() {
         >
           {[
             [
-              { name: 'Transistor', logo: logoTransistor },
-              { name: 'Tuple', logo: logoTuple },
-              { name: 'StaticKit', logo: logoStaticKit },
-            ],
-            [
-              { name: 'Mirage', logo: logoMirage },
-              { name: 'Laravel', logo: logoLaravel },
-              { name: 'Statamic', logo: logoStatamic },
+              { name: 'WeMakeDevs', logo: WeMakeDevs },
+              { name: '4C', logo: ContentCreators4Cs },
             ],
           ].map((group, groupIndex) => (
             <li key={groupIndex}>
@@ -73,7 +63,12 @@ export function Hero() {
               >
                 {group.map((company) => (
                   <li key={company.name} className="flex">
-                    <Image src={company.logo} alt={company.name} unoptimized />
+                    <Image
+                      src={company.logo}
+                      alt={company.name}
+                      unoptimized
+                      width="50"
+                    />
                   </li>
                 ))}
               </ul>
