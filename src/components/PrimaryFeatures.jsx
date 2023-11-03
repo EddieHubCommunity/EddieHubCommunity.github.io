@@ -6,35 +6,33 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import GitHubBioDrop from '@/images/screenshots/github-biodrop.png'
+import GitHubOrg from '@/images/screenshots/github-eddiehub-org.png'
+import GitHubGoodFirstIssueFinder from '@/images/screenshots/github-good-first-issue-finder.png'
+import GitHubEddieBot from '@/images/screenshots/github-eddiebot.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'EddieHub GitHub Org',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-    image: screenshotPayroll,
+      'Community of inclusive Open Source people - Collaboration 1st, Code 2nd! Join our GitHub Org.',
+    image: GitHubOrg,
   },
   {
-    title: 'Claim expenses',
+    title: 'BioDrop',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-    image: screenshotExpenses,
+      'Connect to your audience with a single link. Showcase the content you create and your projects in one place. Make it easier for people to find, follow and subscribe.',
+    image: GitHubBioDrop,
   },
   {
-    title: 'VAT handling',
-    description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-    image: screenshotVatReturns,
+    title: 'Good First Issue Finder',
+    description: 'Issue-Crawler for GitHub based on Sveltekit.',
+    image: GitHubGoodFirstIssueFinder,
   },
   {
-    title: 'Reporting',
-    description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
+    title: 'EddieBot',
+    description: 'Inclusive words Discord bot (no more "hey guys")',
+    image: GitHubEddieBot,
   },
 ]
 
@@ -60,16 +58,16 @@ export function PrimaryFeatures() {
     <section
       id="features"
       aria-label="Features for running your books"
-      className="relative overflow-hidden bg-primary-600 pb-28 pt-20 sm:py-32"
+      className="bg-primary-600 relative overflow-hidden pb-28 pt-20 sm:py-32"
     >
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            Here are some of our active GitHub repositories
           </h2>
-          <p className="mt-6 text-lg tracking-tight text-primary-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+          <p className="text-primary-100 mt-6 text-lg tracking-tight">
+            Everyone is welcome to come and contribute to our open source
+            projects.
           </p>
         </div>
         <Tab.Group
@@ -127,7 +125,7 @@ export function PrimaryFeatures() {
                         {feature.description}
                       </p>
                     </div>
-                    <div className="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-primary-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
+                    <div className="shadow-primary-900/20 mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
                       <Image
                         className="w-full"
                         src={feature.image}
