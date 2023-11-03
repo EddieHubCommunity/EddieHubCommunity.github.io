@@ -1,13 +1,18 @@
-# Salient
+# EddieHub Website
 
 Salient is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
 
+## Requirements
+
+- nodejs
+- npm
+
 ## Getting started
 
-To get started with this template, first install the npm dependencies:
+To get started with this project, first install the npm dependencies:
 
 ```bash
-npm install
+npm ci
 ```
 
 Next, run the development server:
@@ -17,10 +22,6 @@ npm run dev
 ```
 
 Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
-
-## Customizing
-
-You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
 
 ## License
 
