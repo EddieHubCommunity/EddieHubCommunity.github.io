@@ -7,7 +7,7 @@ const faqs = [
     {
       question: 'How do I join EddieHub?',
       answer:
-        `EddieHub has many community and cross community platforms, events and calls. It is best to sign up to the Newsletter and join Discord to start collaborating with the inclusive EddieHub community. More information can be found in blog post on getting started.`,
+        'EddieHub has many community and cross community platforms, events and calls. It is best to sign up to the Newsletter and join Discord to start collaborating with the inclusive EddieHub community. More information can be found in blog post on getting started.',
     },
     {
       question: 'How do I join the EddieHub GitHub Organisation?',
