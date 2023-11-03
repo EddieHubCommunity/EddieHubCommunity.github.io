@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 
@@ -7,7 +5,7 @@ export function CallToAction() {
   return (
     <section
       id="get-started-today"
-      className="bg-primary-600 relative overflow-hidden py-32"
+      className="relative overflow-hidden bg-primary-600 py-32"
     >
       <Container className="relative">
         <div className="mx-auto max-w-lg text-center">
@@ -15,12 +13,16 @@ export function CallToAction() {
             Get started today
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            It’s time to take control of your books. Buy our software so you can
-            feel like you’re doing something productive.
+            There is no gatekeeping in Open Source, this fosters a real sense of
+            collaboration, communication and career development
           </p>
-          {/* <Button href="/register" color="white" className="mt-10">
-            Get 6 months free
-          </Button> */}
+          <Button
+            href="https://github.com/EddieHubCommunity?view_as=public#steps-to-get-started"
+            color="white"
+            className="mt-10"
+          >
+            Quickstart Guide
+          </Button>
         </div>
       </Container>
     </section>
