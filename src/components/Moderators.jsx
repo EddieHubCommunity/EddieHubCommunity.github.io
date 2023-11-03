@@ -44,6 +44,13 @@ const people = [
     twitterUrl: 'https://twitter.com/pradumna_saraf',
     linkedinUrl: 'https://www.linkedin.com/in/pradumnasaraf/',
   },
+  {
+    name: 'Amanda Martin',
+    role: 'she/her | Developer Advocate @DevsOnWix @Wix | EddieHub Ambassador | dog mom 🐾 | home chef | travel fantasizer | curious dork  | tweets are my own.',
+    imageUrl: 'https://github.com/amandamartin-dev.png',
+    twitterUrl: 'https://twitter.com/hey_amandam',
+    linkedinUrl: 'https://www.linkedin.com/in/amandamartin-dev/',
+  },
 ]
 
 function SwirlyDoodle(props) {
