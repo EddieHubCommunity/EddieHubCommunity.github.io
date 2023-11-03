@@ -1,70 +1,65 @@
 import Image from 'next/image'
 
 import { Container } from '@/components/Container'
-import avatarImage1 from '@/images/avatars/avatar-1.png'
-import avatarImage2 from '@/images/avatars/avatar-2.png'
-import avatarImage3 from '@/images/avatars/avatar-3.png'
-import avatarImage4 from '@/images/avatars/avatar-4.png'
-import avatarImage5 from '@/images/avatars/avatar-5.png'
 
 const testimonials = [
   [
     {
       content:
-        'TaxPal is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.',
+        'Started contributing and building my GitHub profile and already got a job interview request based on my GitHub activity. So I really appreciate what you do here!',
       author: {
-        name: 'Sheryl Berge',
-        role: 'CEO at Lynch LLC',
-        image: avatarImage1,
+        name: 'emanuel_dev',
+        role: 'https://github.com/EmanuelGF',
+        image: 'https://github.com/EmanuelGF.png',
       },
     },
     {
       content:
-        'I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.',
+        "EddieHub is like a family to me! We get really warm welcomes here! We get all our issues solved by each others' #help :) We get our 🟩 treats here! EddieHub is awesome. By Awesome I mean Awesome! It is a 10/5 rating!",
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
-        image: avatarImage4,
-      },
-    },
-  ],
-  [
-    {
-      content:
-        'The best part about TaxPal is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.',
-      author: {
-        name: 'Leland Kiehn',
-        role: 'Founder of Kiehn and Sons',
-        image: avatarImage5,
-      },
-    },
-    {
-      content:
-        'There are so many things I had to do with my old software that I just don’t do at all with TaxPal. Suspicious but I can’t say I don’t love it.',
-      author: {
-        name: 'Erin Powlowski',
-        role: 'COO at Armstrong Inc',
-        image: avatarImage2,
+        name: 'Vincent Villafuerte',
+        role: 'https://github.com/vinzvinci',
+        image: 'https://github.com/vinzvinci.png',
       },
     },
   ],
   [
     {
       content:
-        'I used to have to remit tax to the EU and with TaxPal I somehow don’t have to do that anymore. Nervous to travel there now though.',
+        "It's everything anyone could ever ask for in a community. Wholesome, Encouraging, Open Source and everything nice! Best thing happened in 2020. I'll be always thankful to this community and keep contributing here. It's beyond rating of 5 stars. 3000/5 ⭐",
       author: {
-        name: 'Peter Renolds',
-        role: 'Founder of West Inc',
-        image: avatarImage3,
+        name: 'Karuna Tata',
+        role: 'https://github.com/starlightknown',
+        image: 'https://github.com/starlightknown.png',
       },
     },
     {
       content:
-        'This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.',
+        'EddieHub is the best growing 🚀 Open-Source community. Here, you can help each other by raising issues, solving doubts on the help channel, show your work (projects), make good connections and so many things.I would recommend all beginners to join the most respectful, collaborative and loving Open-Source community.Thanks @eddiejaoude, we support you!',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
-        image: avatarImage4,
+        name: 'akhileshthite',
+        role: 'https://github.com/akhileshthite',
+        image: 'https://github.com/akhileshthite.png',
+      },
+    },
+  ],
+  [
+    {
+      content:
+        'Eddiehub has helped me to understand the importance of Open Source and how easy it is to collaborate with developers from around the world to work on different projects and learn from each other in an amazing community.',
+      author: {
+        name: 'Evavic44',
+        role: 'https://github.com/Evavic44',
+        image: 'https://github.com/Evavic44.png',
+      },
+    },
+    {
+      content:
+        "This is just an awesome community. This is the first community I have seen which puts collaboration first than the code. Collaborative people make a collaborative community and EddieHub is a perfect example of it 😄. I can't rate this community on the scale because priceless things can't be quantified ❤️",
+      author: {
+        name: 'Kaiwalya Koparkar',
+        role: 'https://github.com/kaiwalyakoparkar',
+        image: 'https://github.com/kaiwalyakoparkar.png',
       },
     },
   ],
