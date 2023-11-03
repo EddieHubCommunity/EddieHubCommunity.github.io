@@ -14,14 +14,14 @@ const people = [
     role: 'Can be found writing content for EddieHub. After a legal career,  Sara enjoys helping others find a work / life balance and strengthening their interview / writing skills.',
     imageUrl: 'https://github.com/SaraJaoude.png',
     twitterUrl: 'https://twitter.com/SaraJaoude',
-    linkedinUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/sara-abou-jaoude-1a005425/',
   },
   {
     name: 'Emma Dawson',
     role: 'Full stack (MERN) software developer. Documenting their passion for accessibility and open source on YouTube. Currently working on making the web more accessible.',
     imageUrl: 'https://github.com/EmmaDawsonDev.png',
     twitterUrl: 'https://twitter.com/EmmaDawsonDev',
-    linkedinUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/emmadawsondev/',
   },
   {
     name: 'Tom Schmelzer',
@@ -35,14 +35,14 @@ const people = [
     role: 'Open Source Advocate and freelance Fullstack Web Dev, from Kolkata India.',
     imageUrl: 'https://github.com/tamalCodes.png',
     twitterUrl: 'https://twitter.com/tamalCodes',
-    linkedinUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/tamalcodes/',
   },
   {
     name: 'Pradumna Saraf',
     role: 'DevOps and API developer, working with communities to bring more people into the Open Source ecosystem.',
     imageUrl: 'https://github.com/Pradumnasaraf.png',
     twitterUrl: 'https://twitter.com/pradumna_saraf',
-    linkedinUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/pradumnasaraf/',
   },
 ]
 
