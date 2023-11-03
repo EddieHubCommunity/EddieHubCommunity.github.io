@@ -27,8 +27,8 @@ const people = [
     name: 'Tom Schmelzer',
     role: 'IT Application Consultant from Germany. Believes Open Source helps you build connections with people from all over the world.',
     imageUrl: 'https://github.com/schmelto.png',
-    twitterUrl: '#',
-    linkedinUrl: '#',
+    twitterUrl: 'https://twitter.com/schmelto2',
+    linkedinUrl: 'https://www.linkedin.com/in/tomschmelzer/',
   },
   {
     name: 'Tamal Das',
