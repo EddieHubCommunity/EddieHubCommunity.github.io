@@ -9,6 +9,12 @@ Salient is a [Tailwind UI](https://tailwindui.com) site template built using [Ta
 
 ## Getting started
 
+### Using Gitpod
+
+[![Open BioDrop in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/Eddiehubcommunity.github.io)
+
+### Local development
+
 To get started with this project, first install the npm dependencies:
 
 ```bash

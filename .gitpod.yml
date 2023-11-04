@@ -1,0 +1,22 @@
+tasks:
+  - name: Server
+    init: npm ci
+    command: |
+      nvm install 18
+      npm run dev
+
+ports:
+  - port: 3000
+    onOpen: open-preview
+    name: Website
+    description: The website for the EddieHub community
+
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: true
+    addCheck: true
+    addComment: false
+    addBadge: true
