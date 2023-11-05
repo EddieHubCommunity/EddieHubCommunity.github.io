@@ -22,11 +22,10 @@ const features = [
     icon: DiscordLogo,
   },
   {
-    name: 'Inventory',
-    summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+    name: 'GitHub Org',
+    summary: 'Learning together in public',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
+      'The best way to learn and get experience is on real world projects. With Open Source you can showcase your skills and build your portfolio.',
     image: GitHubScreenshot,
     icon: GitHubLogo,
   },

@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  website:
+    container_name: eddiehub-website
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: eddiehub-website-image
+    command: npm run dev
+    ports:
+      - "3000:3000" 
+    volumes:
+      - ./src:/usr/src/app/src
+      - /usr/src/app/node_modules 
