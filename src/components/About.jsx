@@ -1,26 +1,28 @@
 import { Container } from '@/components/Container'
 import Image from 'next/image'
-import GithubStar from '@/images/about/2021star.png' 
-import Support from '@/images/about/support.png' 
-import Eddiebot from '@/images/about/eddiebot.png' 
+import GithubStar from '@/images/about/2021star.png'
+import Support from '@/images/about/support.png'
+import Eddiebot from '@/images/about/eddiebot.png'
+import { H1, H2 } from '@/components/Headings'
 
 export function Content() {
   return (
     <section id="about" className="relative overflow-hidden bg-slate-50 py-32">
       <Container className="relative">
         <div>
-          <h1 className="mt-3 text-4xl font-semibold text-gray-900">About</h1>
-          <p className="my-4 text-lg tracking-tight">Read more about where EddieHub started and the core values of the community.</p>
-          <h2 className="font-display text-3xl tracking-tight sm:text-4xl">
-            Our Background
-          </h2>
+          <H1 className="mt-3 text-4xl font-semibold text-gray-900">About</H1>
+          <p className="my-4 text-lg tracking-tight">
+            Read more about where EddieHub started and the core values of the
+            community.
+          </p>
+          <H2>Our Background</H2>
           <Image
-                className="mx-auto"
-                src={GithubStar}
-                alt="github star 2021 badge"
-                width="auto"
-                height="250"
-              />
+            className="mx-auto"
+            src={GithubStar}
+            alt="github star 2021 badge"
+            width="auto"
+            height="250"
+          />
           <p className="mt-4 text-lg tracking-tight">
             EddieHub was founded by Eddie Jaoude, GitHub Star, GitHub Star of
             the Year 2020 and winner of the GitHub Community Growth Award 2021.
@@ -43,9 +45,7 @@ export function Content() {
             First, Code Second” quickly became what the community members live
             by.
           </p>
-          <h2 className="font-display mt-5 text-3xl tracking-tight  sm:text-4xl">
-            Our Aims
-          </h2>
+          <H2 className="mt-5">Our Aims</H2>
           <p className="mt-4 text-lg tracking-tight">
             EddieHub’s overall aim is to support members in: accelerating their
             learnings so that they can have the career they want.
@@ -72,12 +72,12 @@ export function Content() {
               </p>
             </li>
             <Image
-                className="mx-auto"
-                src={Support}
-                alt="github support"
-                width="auto"
-                height="500"
-              />
+              className="mx-auto"
+              src={Support}
+              alt="github support"
+              width="auto"
+              height="500"
+            />
             <li>
               Building upon your communication skills
               <p className="mt-4 text-lg tracking-tight">
@@ -118,9 +118,7 @@ export function Content() {
               </p>
             </li>
           </ol>
-          <h2 className="font-display mt-5 text-3xl tracking-tight  sm:text-4xl">
-            Our Core Values
-          </h2>
+          <H2 className="mt-5">Our Core Values</H2>
           <p>Behind these aims are EddieHub’s core values:</p>
           <ol className="mt-4 list-decimal text-lg tracking-tight">
             <li>

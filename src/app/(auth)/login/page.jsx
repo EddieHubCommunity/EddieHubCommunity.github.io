@@ -4,6 +4,7 @@ import { Button } from '@/components/Button'
 import { TextField } from '@/components/Fields'
 import { Logo } from '@/components/Logo'
 import { SlimLayout } from '@/components/SlimLayout'
+import { H2 } from '@/components/Headings'
 
 export const metadata = {
   title: 'Sign In',
@@ -17,9 +18,7 @@ export default function Login() {
           <Logo className="h-10 w-auto" />
         </Link>
       </div>
-      <h2 className="mt-20 text-lg font-semibold text-gray-900">
-        Sign in to your account
-      </h2>
+      <H2 isAuth={true}>Sign in to your account</H2>
       <p className="mt-2 text-sm text-gray-700">
         Don’t have an account?{' '}
         <Link
