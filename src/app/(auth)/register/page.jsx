@@ -4,7 +4,6 @@ import { Button } from '@/components/Button'
 import { SelectField, TextField } from '@/components/Fields'
 import { Logo } from '@/components/Logo'
 import { SlimLayout } from '@/components/SlimLayout'
-import { H2 } from '@/components/Headings'
 
 export const metadata = {
   title: 'Sign Up',
@@ -18,7 +17,9 @@ export default function Register() {
           <Logo className="h-10 w-auto" />
         </Link>
       </div>
-      <H2 isAuth={true}>Get started for free</H2>
+      <h2 className="mt-20 text-lg font-semibold text-gray-900">
+        Get started for free
+      </h2>
       <p className="mt-2 text-sm text-gray-700">
         Already registered?{' '}
         <Link
