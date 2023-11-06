@@ -17,7 +17,7 @@ export function Newsletter() {
           <div className="my-4">
             <iframe
               src="https://eddiehub.substack.com/embed"
-              className="rounded"
+              className="w-full rounded"
               width="480"
               height="150"
               frameBorder="0"
