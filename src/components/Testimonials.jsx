@@ -121,7 +121,7 @@ export function Testimonials() {
                           <Image
                             className="h-14 w-14 object-cover"
                             src={'https://github.com/' + testimonial.author.username + '.png'}
-                            alt=""
+                            alt={testimonial.name}
                             width={56}
                             height={56}
                           />
