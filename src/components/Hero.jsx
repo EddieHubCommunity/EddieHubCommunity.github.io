@@ -5,7 +5,7 @@ import { H1 } from '@/components/Headings'
 export function Hero() {
   return (
     <Container className="pb-16 pt-20 text-center lg:pt-32">
-      <H1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
+      <H1 className="mx-auto">
         Open Source{' '}
         <span className="relative whitespace-nowrap text-primary-600">
           <svg

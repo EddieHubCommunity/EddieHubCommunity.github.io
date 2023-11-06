@@ -10,7 +10,7 @@ export function Content() {
     <section id="about" className="relative overflow-hidden bg-slate-50 py-32">
       <Container className="relative">
         <div>
-          <H1 className="mt-3 text-4xl font-semibold text-gray-900">About</H1>
+          <H1 className="mt-3">About</H1>
           <p className="my-4 text-lg tracking-tight">
             Read more about where EddieHub started and the core values of the
             community.

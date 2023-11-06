@@ -2,7 +2,9 @@ import React from 'react'
 import clsx from 'clsx'
 
 export const H1 = ({ children, className }) => {
-  return <h1 className={className}>{children}</h1>
+  const defaultClass =
+    'max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl'
+  return <h1 className={clsx(defaultClass, className)}>{children}</h1>
 }
 
 export const H2 = ({ children, className, id }) => {
