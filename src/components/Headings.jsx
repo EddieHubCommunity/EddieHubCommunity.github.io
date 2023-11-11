@@ -1,17 +1,21 @@
 import React from 'react'
 import clsx from 'clsx'
 
-export const H1 = ({ children, className }) => {
+export const H1 = React.forwardRef(({ children, className, ...rest }, ref) => {
   const defaultClass =
     'max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl'
-  return <h1 className={clsx(defaultClass, className)}>{children}</h1>
-}
+  return (
+    <h1 ref={ref} className={clsx(defaultClass, className)} {...rest}>
+      {children}
+    </h1>
+  )
+})
 
-export const H2 = ({ children, className, id }) => {
+export const H2 = React.forwardRef(({ children, className, ...rest }, ref) => {
   const defaultClass = 'font-display text-3xl tracking-tight sm:text-4xl'
   return (
-    <h2 id={id} className={clsx(defaultClass, className)}>
+    <h2 ref={ref} className={clsx(defaultClass, className)} {...rest}>
       {children}
     </h2>
   )
-}
+})
