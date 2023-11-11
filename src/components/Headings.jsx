@@ -10,6 +10,7 @@ export const H1 = React.forwardRef(({ children, className, ...rest }, ref) => {
     </h1>
   )
 })
+H1.displayName = 'H1'
 
 export const H2 = React.forwardRef(({ children, className, ...rest }, ref) => {
   const defaultClass = 'font-display text-3xl tracking-tight sm:text-4xl'
@@ -19,3 +20,4 @@ export const H2 = React.forwardRef(({ children, className, ...rest }, ref) => {
     </h2>
   )
 })
+H2.displayName = 'H2'
