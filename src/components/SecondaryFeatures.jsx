@@ -6,6 +6,7 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
+import { H2 } from '@/components/Headings'
 import DiscordLogo from '@/images/logos/discord.svg'
 import GitHubLogo from '@/images/logos/github.svg'
 
@@ -148,9 +149,7 @@ export function SecondaryFeatures() {
     >
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
-          <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Why be part of EddieHub?
-          </h2>
+          <H2 className="text-slate-900">Why be part of EddieHub?</H2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             Accelerate your career, skills and grow your network, while having
             fun!

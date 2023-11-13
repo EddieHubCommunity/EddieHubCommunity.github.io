@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import { Container } from '@/components/Container'
+import { H2 } from '@/components/Headings'
 
 const testimonials = [
   [
@@ -10,22 +11,23 @@ const testimonials = [
         'Started contributing and building my GitHub profile and already got a job interview request based on my GitHub activity. So I really appreciate what you do here!',
       author: {
         name: 'emanuel_dev',
-        username: 'EmanuelGF'
+        username: 'EmanuelGF',
       },
     },
     {
-      content: 'EddieHub is like a family to me! We get really warm welcomes here! We get all our issues solved by each others\' #help :) We get our 🟩 treats here! EddieHub is awesome. By Awesome I mean Awesome! It is a 10/5 rating!',
+      content:
+        "EddieHub is like a family to me! We get really warm welcomes here! We get all our issues solved by each others' #help :) We get our 🟩 treats here! EddieHub is awesome. By Awesome I mean Awesome! It is a 10/5 rating!",
       author: {
         name: 'Krish Gupta',
-        username: 'xkrishguptaa'
-      }
+        username: 'xkrishguptaa',
+      },
     },
     {
       content:
         "EddieHub is like a family to me! We get really warm welcomes here! We get all our issues solved by each others' #help :) We get our 🟩 treats here! EddieHub is awesome. By Awesome I mean Awesome! It is a 10/5 rating!",
       author: {
         name: 'Vincent Villafuerte',
-        username: 'vinzvinci'
+        username: 'vinzvinci',
       },
     },
   ],
@@ -35,7 +37,7 @@ const testimonials = [
         "It's everything anyone could ever ask for in a community. Wholesome, Encouraging, Open Source and everything nice! Best thing happened in 2020. I'll be always thankful to this community and keep contributing here. It's beyond rating of 5 stars. 3000/5 ⭐",
       author: {
         name: 'Karuna Tata',
-        username: 'starlightknown'
+        username: 'starlightknown',
       },
     },
     {
@@ -43,7 +45,7 @@ const testimonials = [
         'EddieHub is the best growing 🚀 Open-Source community. Here, you can help each other by raising issues, solving doubts on the help channel, show your work (projects), make good connections and so many things.I would recommend all beginners to join the most respectful, collaborative and loving Open-Source community.Thanks @eddiejaoude, we support you!',
       author: {
         name: 'akhileshthite',
-        username: 'akhileshthite'
+        username: 'akhileshthite',
       },
     },
   ],
@@ -53,7 +55,7 @@ const testimonials = [
         'Eddiehub has helped me to understand the importance of Open Source and how easy it is to collaborate with developers from around the world to work on different projects and learn from each other in an amazing community.',
       author: {
         name: 'Evavic44',
-        username: 'Evavic44'
+        username: 'Evavic44',
       },
     },
     {
@@ -61,7 +63,7 @@ const testimonials = [
         "This is just an awesome community. This is the first community I have seen which puts collaboration first than the code. Collaborative people make a collaborative community and EddieHub is a perfect example of it 😄. I can't rate this community on the scale because priceless things can't be quantified ❤️",
       author: {
         name: 'Kaiwalya Koparkar',
-        username: 'kaiwalyakoparkar'
+        username: 'kaiwalyakoparkar',
       },
     },
   ],
@@ -84,9 +86,7 @@ export function Testimonials() {
     >
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
-          <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Testimonials
-          </h2>
+          <H2 className="text-slate-900">Testimonials</H2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             What it means to be part of this community in the members&lsquo; own
             words
@@ -114,13 +114,21 @@ export function Testimonials() {
                             {testimonial.author.name}
                           </div>
                           <div className="mt-1 text-sm text-slate-500">
-                            <Link href={`https://github.com/${testimonial.author.username}`}>@{testimonial.author.username}</Link>
+                            <Link
+                              href={`https://github.com/${testimonial.author.username}`}
+                            >
+                              @{testimonial.author.username}
+                            </Link>
                           </div>
                         </div>
                         <div className="overflow-hidden rounded-full bg-slate-50">
                           <Image
                             className="h-14 w-14 object-cover"
-                            src={'https://github.com/' + testimonial.author.username + '.png'}
+                            src={
+                              'https://github.com/' +
+                              testimonial.author.username +
+                              '.png'
+                            }
                             alt=""
                             width={56}
                             height={56}

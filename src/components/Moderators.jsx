@@ -1,5 +1,6 @@
 import { Container } from '@/components/Container'
 import Image from 'next/image'
+import { H2 } from '@/components/Headings'
 
 const people = [
   {
@@ -78,13 +79,13 @@ export function Moderators() {
     >
       <Container>
         <div className="md:text-center">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
+          <H2 className="text-white">
             <span className="relative whitespace-nowrap">
               <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-primary-400" />
               <span className="relative">EddieHub</span>
             </span>{' '}
             Moderators.
-          </h2>
+          </H2>
           <p className="mt-4 text-lg text-slate-400">
             Our awesome Moderators providing support through all timezones
           </p>
