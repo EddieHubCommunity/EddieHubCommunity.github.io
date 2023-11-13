@@ -1,6 +1,7 @@
 import Image from 'next/image'
 
 import { Container } from '@/components/Container'
+import { H2 } from '@/components/Headings'
 
 const faqs = [
   [
@@ -11,7 +12,8 @@ const faqs = [
     },
     {
       question: 'How do I join the EddieHub GitHub Organisation?',
-      answer: 'If you would like to join the EddieHub GitHub organisation, then please fill out this form so that you can get an automatic invite to the organisation. If you want the organisation to appear on your profile then make sure that you make it public (as by default it is marked as private).',
+      answer:
+        'If you would like to join the EddieHub GitHub organisation, then please fill out this form so that you can get an automatic invite to the organisation. If you want the organisation to appear on your profile then make sure that you make it public (as by default it is marked as private).',
     },
     {
       question: 'Who is EddieHub for?',
@@ -23,11 +25,10 @@ const faqs = [
     {
       question: 'I am new to coding and / or Open Source, can I still join?',
       answer:
-        'Yes! Starting out can sometimes feel lonely and overwhelming particularly with the amount of information out there. In EddieHub Discord you will find supportive channels such as #help and #first-timers. Also Eddie\'s YouTube channel is a good resource when starting out.',
+        "Yes! Starting out can sometimes feel lonely and overwhelming particularly with the amount of information out there. In EddieHub Discord you will find supportive channels such as #help and #first-timers. Also Eddie's YouTube channel is a good resource when starting out.",
     },
     {
-      question:
-        'Can I find a mentor in EddieHub?',
+      question: 'Can I find a mentor in EddieHub?',
       answer:
         'At EddieHub we believe that everyone is a mentor and can help others in the community. This community approach is beneficial for the mentee as they are exposed to various perspectives, and for the mentor they develop many of their communication and collaboration skills. Even if you are one month into your journey, there is someone who is one day in and who can benefit from your experience and insight.',
     },
@@ -45,13 +46,13 @@ const faqs = [
         'At EddieHub we are passionate about moving away from gender favouring, polarising, race related, religion inconsiderate or other unequal phrasing. Therefore if you use terms such as “Hi Guys”, then EddieBot responds with a notification highlighting that this is not inclusive language and will suggest alternatives.',
     },
     {
-      question: 'I just joined, why can\'t I post links on Discord?',
-      answer: 'You have recently joined the community and you have tried to share a link, but found that NightBot has deleted this message. We appreciate that the community is a place to share your work, which we encourage only for our regular community members (aka “Team Eddie”). To become a regular and get the role "Team Eddie", we highly suggest to get involved in the community conversation and add value by helping other community members.',
+      question: "I just joined, why can't I post links on Discord?",
+      answer:
+        'You have recently joined the community and you have tried to share a link, but found that NightBot has deleted this message. We appreciate that the community is a place to share your work, which we encourage only for our regular community members (aka “Team Eddie”). To become a regular and get the role "Team Eddie", we highly suggest to get involved in the community conversation and add value by helping other community members.',
     },
     {
       question: 'I love Hubber! Can I use the EddieHub mascot and logo?',
-      answer:
-        'Check what you can and cannot do on our Branding page.',
+      answer: 'Check what you can and cannot do on our Branding page.',
     },
   ],
 ]
@@ -65,12 +66,9 @@ export function Faqs() {
     >
       <Container className="relative">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2
-            id="faq-title"
-            className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
-          >
+          <H2 id="faq-title" className="text-slate-900">
             Frequently asked questions
-          </h2>
+          </H2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             If you can’t find what you’re looking for, email our support team
             and if you’re lucky someone will get back to you.
