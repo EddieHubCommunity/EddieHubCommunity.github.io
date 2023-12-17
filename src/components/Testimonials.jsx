@@ -129,8 +129,7 @@ export function Testimonials() {
                               testimonial.author.username +
                               '.png'
                             }
-                            alt={`${testimonial.author.name} image}
-                            width={56}
+                            alt={`${testimonial.author.name}'s profile picture`}
                             height={56}
                           />
                         </div>
