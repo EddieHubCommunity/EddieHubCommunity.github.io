@@ -5,8 +5,9 @@ import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
 
-import DiscordLogo from '@/images/logos/discord.svg'
-import GitHubLogo from '@/images/logos/github.svg'
+import  { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faXTwitter, faDiscord, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+
 import WeMakeDevs from '@/images/logos/WeMakeDevs.jpg'
 import ContentCreators4Cs from '@/images/logos/ContentCreators4Cs.jpg'
 
@@ -65,24 +66,28 @@ export function Footer() {
               className="group"
               aria-label="EddieHub on Discord"
             >
-              <Image
-                src={DiscordLogo}
-                width="30"
-                height="30"
-                alt="Discord logo"
-              />
+              <FontAwesomeIcon icon={faDiscord} size='xl' />
             </Link>
             <Link
               href="https://github.com/EddieHubCommunity"
               className="group"
               aria-label="EddieHub on GitHub"
             >
-              <Image
-                src={GitHubLogo}
-                width="30"
-                height="30"
-                alt="GitHub logo"
-              />
+              <FontAwesomeIcon icon={faGithub} size='xl' />
+            </Link>
+            <Link
+              href="https://twitter.com/eddiejaoude"
+              className="group"
+              aria-label="EddieHub on Twitter"
+            >
+              <FontAwesomeIcon icon={faXTwitter} size='xl' />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/company/eddiehub/"
+              className="group"
+              aria-label="EddieHub on LinkedIn"
+            >
+              <FontAwesomeIcon icon={faLinkedinIn} size='xl' />
             </Link>
           </div>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
