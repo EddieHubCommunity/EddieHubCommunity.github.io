@@ -66,7 +66,7 @@ export function PrimaryFeatures() {
           <H2 className="text-white md:text-5xl">
             Here are some of our active GitHub repositories
           </H2>
-          <p className="mt-6 text-lg tracking-tight text-primary-100">
+          <p className="mt-6 text-lg font-bold tracking-tight text-slate-900">
             Everyone is welcome to come and contribute to our open source
             projects.
           </p>
