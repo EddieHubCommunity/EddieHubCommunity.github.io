@@ -1,6 +1,6 @@
 import { Container } from '@/components/Container'
 import { H2 } from '@/components/Headings'
-import clsx from 'clsx'
+import { Founder } from './Founder'
 
 const founders = [
   {
@@ -17,57 +17,6 @@ const founders = [
     description: '"Open Source is our hobby, our passion - not just our job"',
   },
 ]
-
-const YouTubeEmbed = ({ videoId, className }) => {
-  return (
-    <div className={clsx('video-responsive', className)}>
-      <iframe
-        width="410"
-        height="240"
-        src={`https://www.youtube.com/embed/${videoId}`}
-        title="YouTube video player"
-        allowFullScreen
-        className="mx-auto"
-      ></iframe>
-    </div>
-  )
-}
-
-const InfoSectipn = ({ title, name, description, className }) => {
-  return (
-    <div className={clsx('flex-grow-1 flex-1 text-left', className)}>
-      <h3 className="bg-teal-500 p-2 text-xl font-bold text-white">{title}</h3>
-      <h4 className="my-3 text-lg font-bold">{name}</h4>
-      <p className="text-lg italic">{description}</p>
-    </div>
-  )
-}
-
-const Founder = ({ name, title, videoId, description, isReverse = false }) => {
-  return (
-    <div>
-      {isReverse ? (
-        <div className="mt-10  flex flex-col gap-10 md:flex-row">
-          <InfoSectipn title={title} name={name} description={description} />
-          <YouTubeEmbed videoId={videoId} className="flex-grow-2" />
-        </div>
-      ) : (
-        <div className="mt-10  flex flex-col gap-10 md:flex-row">
-          <YouTubeEmbed
-            videoId={videoId}
-            className="flex-grow-2 order-2 md:order-1"
-          />
-          <InfoSectipn
-            title={title}
-            name={name}
-            description={description}
-            className="order-1 md:order-2"
-          />
-        </div>
-      )}
-    </div>
-  )
-}
 
 export function Founders() {
   return (
