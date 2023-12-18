@@ -2,10 +2,10 @@ import clsx from 'clsx'
 
 export const YouTubeEmbed = ({ videoId, className }) => {
   return (
-    <div className={clsx('video-responsive', className)}>
+    <div className={clsx('my-3 aspect-video md:my-0', className)}>
       <iframe
-        width="410"
-        height="240"
+        width="100%"
+        height="110%"
         src={`https://www.youtube.com/embed/${videoId}`}
         title="YouTube video player"
         allowFullScreen
