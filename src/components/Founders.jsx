@@ -20,7 +20,11 @@ const founders = [
 
 export function Founders() {
   return (
-    <section id="founders" aria-label="founders" className="bg-slate-50 pt-20">
+    <section
+      id="founders"
+      aria-label="founders"
+      className="bg-primary-600 pb-16 pt-20 text-white"
+    >
       <Container>
         <div className="md:text-center">
           <H2>EddieHub Founders</H2>

@@ -11,7 +11,7 @@ export const Founder = ({
   return (
     <div>
       {isReverse ? (
-        <div className="mt-10  flex flex-col gap-10 md:flex-row">
+        <div className="mt-10 flex  flex-col gap-10 pb-10 md:flex-row">
           <InfoSectipn title={title} name={name} description={description} />
           <YouTubeEmbed videoId={videoId} className="flex-grow-2" />
         </div>
