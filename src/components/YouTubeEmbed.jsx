@@ -9,7 +9,7 @@ export const YouTubeEmbed = ({ videoId, className }) => {
         src={`https://www.youtube.com/embed/${videoId}`}
         title="YouTube video player"
         allowFullScreen
-        className="mx-auto"
+        className="mx-auto rounded-2xl"
       ></iframe>
     </div>
   )
