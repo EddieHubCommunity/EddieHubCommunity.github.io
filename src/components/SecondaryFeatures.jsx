@@ -6,6 +6,7 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
+import { H2 } from '@/components/Headings'
 import DiscordLogo from '@/images/logos/discord.svg'
 import GitHubLogo from '@/images/logos/github.svg'
 
@@ -66,7 +67,7 @@ function FeaturesMobile() {
     <div className="-mx-4 mt-20 flex flex-col gap-y-10 overflow-hidden px-4 sm:-mx-6 sm:px-6 lg:hidden">
       {features.map((feature) => (
         <div key={feature.summary}>
-          <Feature feature={feature} className="mx-auto max-w-2xl" isActive />
+          <Feature feature={feature} className="mt-2 mx-auto max-w-2xl" isActive />
           <div className="relative mt-10 pb-10">
             <div className="absolute -inset-x-4 bottom-0 top-8 bg-slate-200 sm:-inset-x-6" />
             <div className="relative mx-auto w-[52.75rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
@@ -148,9 +149,7 @@ export function SecondaryFeatures() {
     >
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
-          <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Why be part of EddieHub?
-          </h2>
+          <H2 className="text-slate-900">Why be part of EddieHub?</H2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             Accelerate your career, skills and grow your network, while having
             fun!

@@ -6,6 +6,7 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
+import { H2 } from '@/components/Headings'
 import GitHubBioDrop from '@/images/screenshots/github-biodrop.png'
 import GitHubOrg from '@/images/screenshots/github-eddiehub-org.png'
 import GitHubGoodFirstIssueFinder from '@/images/screenshots/github-good-first-issue-finder.png'
@@ -62,10 +63,10 @@ export function PrimaryFeatures() {
     >
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
+          <H2 className="text-white md:text-5xl">
             Here are some of our active GitHub repositories
-          </h2>
-          <p className="mt-6 text-lg tracking-tight text-primary-100">
+          </H2>
+          <p className="mt-6 text-lg font-bold tracking-tight text-slate-900">
             Everyone is welcome to come and contribute to our open source
             projects.
           </p>

@@ -2,6 +2,7 @@ import { Inter, Lexend } from 'next/font/google'
 import clsx from 'clsx'
 
 import '@/styles/tailwind.css'
+import '@fortawesome/fontawesome-svg-core/styles.css'
 
 export const metadata = {
   title: {

@@ -116,7 +116,7 @@ export function Header() {
               href="https://github.com/EddieHubCommunity?view_as=public#steps-to-get-started"
               color="blue"
             >
-              <span>
+              <span className="text-lg font-bold text-slate-900">
                 Get started <span className="hidden lg:inline">today</span>
               </span>
             </Button>
