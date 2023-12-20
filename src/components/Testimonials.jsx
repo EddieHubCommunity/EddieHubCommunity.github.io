@@ -129,7 +129,7 @@ export function Testimonials() {
                               testimonial.author.username +
                               '.png'
                             }
-                            alt=""
+                            alt={testimonial.name}
                             width={56}
                             height={56}
                           />

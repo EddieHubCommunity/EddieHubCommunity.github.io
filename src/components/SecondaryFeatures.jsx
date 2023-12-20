@@ -125,7 +125,7 @@ function FeaturesDesktop() {
                     <Image
                       className="w-full"
                       src={feature.image}
-                      alt=""
+                      alt={feature.name}
                       sizes="52.75rem"
                     />
                   </div>

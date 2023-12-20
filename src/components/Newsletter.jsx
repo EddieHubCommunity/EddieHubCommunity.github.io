@@ -30,8 +30,8 @@ export function Newsletter() {
             Awards
           </h3>
           <div className="my-4 flex flex-wrap items-center justify-evenly gap-4">
-            <Image src={CommunityAward} width="500" className="rounded" />
-            <Image src={TeacherAward} width="500" className="rounded" />
+            <Image alt={"Community Award"} src={CommunityAward} width="500" className="rounded" />
+            <Image alt={"Teacher Award"} src={TeacherAward} width="500" className="rounded" />
           </div>
         </div>
       </Container>
