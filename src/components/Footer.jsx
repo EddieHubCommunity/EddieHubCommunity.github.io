@@ -10,6 +10,7 @@ import { faXTwitter, faDiscord, faGithub, faLinkedinIn } from '@fortawesome/free
 
 import WeMakeDevs from '@/images/logos/WeMakeDevs.jpg'
 import ContentCreators4Cs from '@/images/logos/ContentCreators4Cs.jpg'
+import { ScrollToTop } from './ScrollToTop'
 
 export function Footer() {
   return (
@@ -90,6 +91,7 @@ export function Footer() {
               <FontAwesomeIcon icon={faLinkedinIn} size='xl' />
             </Link>
           </div>
+          <ScrollToTop/>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
             Copyright &copy; {new Date().getFullYear()} JaoudeStudios Ltd
           </p>
