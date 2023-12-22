@@ -10,7 +10,6 @@ import { faXTwitter, faDiscord, faGithub, faLinkedinIn } from '@fortawesome/free
 
 import WeMakeDevs from '@/images/logos/WeMakeDevs.jpg'
 import ContentCreators4Cs from '@/images/logos/ContentCreators4Cs.jpg'
-import { ScrollToTop } from './ScrollToTop'
 
 export function Footer() {
   return (
