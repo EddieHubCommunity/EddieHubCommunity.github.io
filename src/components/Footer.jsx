@@ -91,7 +91,6 @@ export function Footer() {
               <FontAwesomeIcon icon={faLinkedinIn} size='xl' />
             </Link>
           </div>
-          <ScrollToTop/>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
             Copyright &copy; {new Date().getFullYear()} JaoudeStudios Ltd
           </p>
