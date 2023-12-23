@@ -13,7 +13,7 @@ const faqs = [
     {
       question: 'How do I join the EddieHub GitHub Organisation?',
       answer:
-        'If you would like to join the EddieHub GitHub organisation, then please fill out this form so that you can get an automatic invite to the organisation. If you want the organisation to appear on your profile then make sure that you make it public (as by default it is marked as private).',
+        'If you would like to join the EddieHub GitHub organisation, then please raise an issue to join the EddieHub GitHub organisation on our support repo on GitHub so that you can get an automatic invite to the organisation. If you want the organisation to appear on your profile then make sure that you make it public (as by default it is marked as private).',
     },
     {
       question: 'Who is EddieHub for?',
