@@ -25,8 +25,8 @@ export function Footer() {
           >
             {[
               [
-                { name: 'WeMakeDevs', logo: WeMakeDevs },
-                { name: '4C', logo: ContentCreators4Cs },
+                { name: 'WeMakeDevs', logo: WeMakeDevs , href: 'https://wemakedevs.org/', title: 'WeMakeDevs'},
+                { name: '4C', logo: ContentCreators4Cs , href: ' https://www.4c.rocks/', title: '4C'},
               ],
             ].map((group, groupIndex) => (
               <li key={groupIndex}>
@@ -36,12 +36,14 @@ export function Footer() {
                 >
                   {group.map((company) => (
                     <li key={company.name} className="flex">
-                      <Image
-                        src={company.logo}
-                        alt={company.name}
-                        unoptimized
-                        width="50"
-                      />
+                      <Link href={company.href} target="_blank" title={company.title}>
+                        <Image
+                        	      src={company.logo}
+                                alt={company.name}
+                                unoptimized
+                                 width="50"
+                        />
+                      </Link>
                     </li>
                   ))}
                 </ul>
