@@ -36,14 +36,14 @@ export function Footer() {
                 >
                   {group.map((company) => (
                     <li key={company.name} className="flex">
-                      <a href={company.href} target="_blank" title={company.title}>
+                      <Link href={company.href} target="_blank" title={company.title}>
                       <Image
                         src={company.logo}
                         alt={company.name}
                         unoptimized
                         width="50"
                       />
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
