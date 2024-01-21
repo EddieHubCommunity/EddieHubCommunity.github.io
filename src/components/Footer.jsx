@@ -5,7 +5,7 @@ import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
 
-import  { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXTwitter, faDiscord, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 import WeMakeDevs from '@/images/logos/WeMakeDevs.jpg'
@@ -25,8 +25,8 @@ export function Footer() {
           >
             {[
               [
-                { name: 'WeMakeDevs', logo: WeMakeDevs , href: 'https://wemakedevs.org/', title: 'WeMakeDevs'},
-                { name: '4C', logo: ContentCreators4Cs , href: ' https://www.4c.rocks/', title: '4C'},
+                { name: 'WeMakeDevs', logo: WeMakeDevs, href: 'https://wemakedevs.org/', title: 'WeMakeDevs' },
+                { name: '4C', logo: ContentCreators4Cs, href: ' https://www.4c.rocks/', title: '4C' },
               ],
             ].map((group, groupIndex) => (
               <li key={groupIndex}>
@@ -38,10 +38,10 @@ export function Footer() {
                     <li key={company.name} className="flex">
                       <Link href={company.href} target="_blank" title={company.title}>
                         <Image
-                        	      src={company.logo}
-                                alt={company.name}
-                                unoptimized
-                                 width="50"
+                          src={company.logo}
+                          alt={company.name}
+                          unoptimized
+                          width="50"
                         />
                       </Link>
                     </li>
@@ -52,7 +52,12 @@ export function Footer() {
           </ul>
         </div>
         <div className="py-16">
-          <Logo className="mx-auto h-10 w-auto" />
+
+          <Link href="/" aria-label="Home">
+            <Logo className="mx-auto h-10 w-auto" />
+          </Link>
+
+
           <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 flex justify-center gap-x-6">
               <NavLink href="#projects">Projects</NavLink>
