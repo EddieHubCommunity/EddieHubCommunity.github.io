@@ -1,3 +1,12 @@
+## [1.2.1](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/compare/v1.2.0...v1.2.1) (2024-06-30)
+
+
+### Bug Fixes
+
+* nudge deployment ([d2c1e1e](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/commit/d2c1e1e83804959fbfb0c136fdf32fb7963f6a5a))
+
+
+
 # [1.2.0](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/compare/v1.1.1...v1.2.0) (2024-06-30)
 
 
