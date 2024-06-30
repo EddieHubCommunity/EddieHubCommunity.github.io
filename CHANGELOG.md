@@ -1,4 +1,13 @@
-# 1.1.0 (2024-06-30)
+## [1.1.1](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/compare/v1.1.0...v1.1.1) (2024-06-30)
+
+
+### Bug Fixes
+
+* package lock out of sync ([8ff53f7](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/commit/8ff53f7a3df09ab10f715e5316864de16bfea87b))
+
+
+
+# [1.1.0](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/compare/621f37ed08e3ed2ed707941c06af9453be5d8a4e...v1.1.0) (2024-06-30)
 
 
 ### Bug Fixes
