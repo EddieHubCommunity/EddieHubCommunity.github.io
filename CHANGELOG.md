@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/compare/v1.1.1...v1.2.0) (2024-06-30)
+
+
+### Features
+
+* deploy action ([7399a17](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/commit/7399a17269da196084b55b88f01d8e02806c8782))
+
+
+
 ## [1.1.1](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/compare/v1.1.0...v1.1.1) (2024-06-30)
 
 
