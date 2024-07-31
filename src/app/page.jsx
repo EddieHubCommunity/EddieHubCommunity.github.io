@@ -18,7 +18,6 @@ export default function Home() {
         <Hero />
         <PrimaryFeatures />
         <SecondaryFeatures />
-        <Newsletter />
         <Testimonials />
         <Moderators />
         <Founders />
