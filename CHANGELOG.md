@@ -1,3 +1,12 @@
+## [1.2.2](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/compare/v1.2.1...v1.2.2) (2024-07-31)
+
+
+### Bug Fixes
+
+* removed newsletter ([63bc962](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/commit/63bc9626b9c142a9cdfe1dd3d65c50065565b9a0))
+
+
+
 ## [1.2.1](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/compare/v1.2.0...v1.2.1) (2024-06-30)
 
 
